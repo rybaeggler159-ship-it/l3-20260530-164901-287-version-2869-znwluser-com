@@ -1,0 +1,1544 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://heartfelt-figolla-9118ae.netlify.app/ads-widget.js"></script>
+<title>热播榜 - 亚洲影片-热门好看的电影大全-高清免费在线观看</title>
+  <meta name="description" content="汇总亚洲影片栏目内容，按地区、题材和热度提供清晰分类。">
+  <meta name="keywords" content="亚洲影片,热门电影大全,亚洲电影,高清免费在线,电影分类,精选亚洲影片">
+  <meta name="theme-color" content="#0b1020">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <script defer src="assets/app.js"></script>
+  </head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <nav class="nav">
+        <a class="brand" href="index.html" aria-label="亚洲影片">
+          <span class="brand-mark"></span>
+          <span style="min-width:0">
+            <span class="brand-title">亚洲影片</span><br>
+            <span class="brand-sub">亚洲影片-热门好看的电影大全-高清免费在线观看</span>
+          </span>
+        </a>
+        <button class="nav-toggle" data-nav-toggle>菜单</button>
+        <div class="nav-links" data-nav-links>
+          <a class="" href="index.html">首页</a>
+      <a class="" href="categories.html">分类总览</a>
+      <a class="active" href="ranking.html">热播榜</a>
+      <a class="" href="categories/channel-1.html">综合热播</a>
+      <a class="" href="categories/channel-2.html">悬疑惊悚</a>
+      <a class="" href="categories/channel-3.html">爱情治愈</a>
+      <a class="" href="categories/channel-4.html">动作冒险</a>
+      <a class="" href="categories/channel-5.html">喜剧青春</a>
+      <a class="" href="categories/channel-6.html">剧情现实</a>
+      <a class="" href="categories/channel-7.html">恐怖奇幻</a>
+      <a class="" href="categories/channel-8.html">动画日常</a>
+      <a class="" href="categories/channel-9.html">亚洲精选</a>
+      <a class="" href="categories/channel-10.html">欧美精选</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-hero-box">
+          <h1>热播榜</h1>
+          <p>根据题材关键词、年份和文本热度生成的静态榜单，用于首页与详情页联动推荐。</p>
+          <div class="breadcrumbs"><a href="index.html">首页</a> / <span>热播榜</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="toolbar" data-filter-toolbar>
+          <input data-q type="search" placeholder="在榜单中搜索影片">
+          <select data-region>
+            <option value="all">全部地区</option>
+            <option value="中国">中国</option><option value="中国内地">中国内地</option><option value="中国内地 / 台湾">中国内地 / 台湾</option><option value="中国台湾">中国台湾</option><option value="中国台湾 / 中国大陆">中国台湾 / 中国大陆</option><option value="中国台湾/日本">中国台湾/日本</option><option value="中国大陆">中国大陆</option><option value="中国大陆 / 中国台湾">中国大陆 / 中国台湾</option><option value="中国大陆 / 中国香港">中国大陆 / 中国香港</option><option value="中国大陆 / 俄罗斯">中国大陆 / 俄罗斯</option><option value="中国大陆 / 台湾">中国大陆 / 台湾</option><option value="中国大陆 / 德国">中国大陆 / 德国</option><option value="中国大陆 / 新西兰">中国大陆 / 新西兰</option><option value="中国大陆 / 法国">中国大陆 / 法国</option><option value="中国大陆 / 香港">中国大陆 / 香港</option><option value="中国大陆（网络剧）">中国大陆（网络剧）</option><option value="中国香港">中国香港</option><option value="中国香港 / 中国大陆">中国香港 / 中国大陆</option><option value="中国香港 / 新加坡">中国香港 / 新加坡</option><option value="中国香港 / 美国">中国香港 / 美国</option><option value="中国香港 / 英国">中国香港 / 英国</option><option value="中国香港 / 马来西亚">中国香港 / 马来西亚</option><option value="中国香港, 中国大陆">中国香港, 中国大陆</option><option value="中国香港, 泰国">中国香港, 泰国</option><option value="中国香港/中国大陆">中国香港/中国大陆</option><option value="中国香港，中国大陆">中国香港，中国大陆</option><option value="丹麦">丹麦</option><option value="乌克兰">乌克兰</option><option value="乌克兰 / 土耳其">乌克兰 / 土耳其</option><option value="亚美尼亚">亚美尼亚</option><option value="以色列">以色列</option><option value="伊朗">伊朗</option><option value="伊朗 / 法国">伊朗 / 法国</option><option value="俄罗斯">俄罗斯</option><option value="俄罗斯/中国">俄罗斯/中国</option><option value="加拿大">加拿大</option><option value="匈牙利">匈牙利</option><option value="匈牙利 / 法国">匈牙利 / 法国</option><option value="北欧（虚构）">北欧（虚构）</option><option value="印度">印度</option><option value="印度尼西亚">印度尼西亚</option><option value="叙利亚 / 法国">叙利亚 / 法国</option><option value="古巴 / 西班牙">古巴 / 西班牙</option><option value="台湾">台湾</option><option value="哥伦比亚 / 美国">哥伦比亚 / 美国</option><option value="哥伦比亚/美国">哥伦比亚/美国</option><option value="土耳其">土耳其</option><option value="塞尔维亚">塞尔维亚</option><option value="墨西哥">墨西哥</option><option value="墨西哥 / 美国">墨西哥 / 美国</option><option value="大陆">大陆</option><option value="奥地利">奥地利</option><option value="奥地利 / 德国">奥地利 / 德国</option><option value="孟加拉国 / 印度">孟加拉国 / 印度</option><option value="巴西">巴西</option><option value="巴西 / 美国">巴西 / 美国</option><option value="希腊 / 法国">希腊 / 法国</option><option value="希腊, 法国">希腊, 法国</option><option value="德国">德国</option><option value="德国 / 波兰">德国 / 波兰</option><option value="德国 / 瑞士">德国 / 瑞士</option><option value="德国 / 美国">德国 / 美国</option><option value="德国, 中国大陆">德国, 中国大陆</option><option value="德国/奥地利">德国/奥地利</option><option value="德国/波兰">德国/波兰</option><option value="意大利">意大利</option><option value="意大利 / 法国">意大利 / 法国</option><option value="意大利 / 美国">意大利 / 美国</option><option value="意大利, 法国">意大利, 法国</option><option value="意大利/希腊">意大利/希腊</option><option value="拉丁美洲">拉丁美洲</option><option value="挪威">挪威</option><option value="挪威 / 丹麦">挪威 / 丹麦</option><option value="捷克 / 中国大陆">捷克 / 中国大陆</option><option value="新加坡">新加坡</option><option value="新加坡, 马来西亚">新加坡, 马来西亚</option><option value="新西兰">新西兰</option><option value="日本">日本</option><option value="日本 / 中国">日本 / 中国</option><option value="日本 / 法国">日本 / 法国</option><option value="日本 / 美国">日本 / 美国</option><option value="日本 / 韩国">日本 / 韩国</option><option value="日本, 美国">日本, 美国</option><option value="日本/中国大陆">日本/中国大陆</option><option value="日本/意大利">日本/意大利</option><option value="智利 / 西班牙">智利 / 西班牙</option><option value="朝鲜">朝鲜</option><option value="欧洲">欧洲</option><option value="欧美合拍">欧美合拍</option><option value="比利时">比利时</option><option value="法国">法国</option><option value="法国 / 中国大陆">法国 / 中国大陆</option><option value="法国 / 以色列">法国 / 以色列</option><option value="法国 / 加拿大">法国 / 加拿大</option><option value="法国 / 德国">法国 / 德国</option><option value="法国 / 意大利">法国 / 意大利</option><option value="法国 / 摩洛哥">法国 / 摩洛哥</option><option value="法国 / 比利时">法国 / 比利时</option><option value="法国 / 美国">法国 / 美国</option><option value="法国 / 荷兰">法国 / 荷兰</option><option value="法国, 意大利">法国, 意大利</option><option value="法国/比利时">法国/比利时</option><option value="法国， 德国">法国， 德国</option><option value="波兰">波兰</option><option value="波兰 / 美国">波兰 / 美国</option><option value="泰国">泰国</option><option value="海地 / 美国">海地 / 美国</option><option value="澳大利亚">澳大利亚</option><option value="澳大利亚 / 美国">澳大利亚 / 美国</option><option value="爱尔兰">爱尔兰</option><option value="爱尔兰 / 英国">爱尔兰 / 英国</option><option value="爱尔兰/法国/意大利">爱尔兰/法国/意大利</option><option value="爱沙尼亚">爱沙尼亚</option><option value="爱沙尼亚 / 中国大陆 (配音)">爱沙尼亚 / 中国大陆 (配音)</option><option value="爱沙尼亚 / 芬兰">爱沙尼亚 / 芬兰</option><option value="瑞典">瑞典</option><option value="约旦 / 卡塔尔">约旦 / 卡塔尔</option><option value="美国">美国</option><option value="美国 / 中国大陆">美国 / 中国大陆</option><option value="美国 / 以色列">美国 / 以色列</option><option value="美国 / 加拿大">美国 / 加拿大</option><option value="美国 / 印度">美国 / 印度</option><option value="美国 / 墨西哥">美国 / 墨西哥</option><option value="美国 / 德国">美国 / 德国</option><option value="美国 / 意大利">美国 / 意大利</option><option value="美国 / 澳大利亚">美国 / 澳大利亚</option><option value="美国 / 英国">美国 / 英国</option><option value="美国 / 西班牙">美国 / 西班牙</option><option value="美国/韩国">美国/韩国</option><option value="美国，墨西哥">美国，墨西哥</option><option value="美国，英国">美国，英国</option><option value="芬兰">芬兰</option><option value="英国">英国</option><option value="英国 / 比利时">英国 / 比利时</option><option value="英国 / 法国">英国 / 法国</option><option value="英国 / 波兰">英国 / 波兰</option><option value="英国 / 澳大利亚">英国 / 澳大利亚</option><option value="英国 / 美国">英国 / 美国</option><option value="英国, 伊拉克">英国, 伊拉克</option><option value="英国/俄罗斯">英国/俄罗斯</option><option value="荷兰">荷兰</option><option value="菲律宾">菲律宾</option><option value="西德">西德</option><option value="西班牙">西班牙</option><option value="西班牙 / 墨西哥">西班牙 / 墨西哥</option><option value="西班牙 / 美国">西班牙 / 美国</option><option value="西班牙/日本">西班牙/日本</option><option value="越南">越南</option><option value="跨国（美国 / 摩洛哥）">跨国（美国 / 摩洛哥）</option><option value="阿拉伯联合酋长国 / 美国">阿拉伯联合酋长国 / 美国</option><option value="阿根廷 / 西班牙">阿根廷 / 西班牙</option><option value="韩国">韩国</option><option value="韩国 / 日本">韩国 / 日本</option><option value="韩国 / 美国">韩国 / 美国</option><option value="香港">香港</option><option value="香港 / 中国大陆">香港 / 中国大陆</option><option value="香港 / 美国">香港 / 美国</option><option value="香港/中国大陆">香港/中国大陆</option><option value="香港，中国大陆">香港，中国大陆</option>
+          </select>
+          <select data-type>
+            <option value="all">全部类型</option>
+            <option value="OVA">OVA</option><option value="TV Series">TV Series</option><option value="TV series">TV series</option><option value="TV剧集">TV剧集</option><option value="TV动画">TV动画</option><option value="传记剧集">传记剧集</option><option value="剧集">剧集</option><option value="剧集 (共10集)">剧集 (共10集)</option><option value="剧集 (第一季，20集)">剧集 (第一季，20集)</option><option value="剧集 (第一季，8集)">剧集 (第一季，8集)</option><option value="剧集 / 动画">剧集 / 动画</option><option value="剧集 / 特别篇">剧集 / 特别篇</option><option value="剧集 / 纪录片">剧集 / 纪录片</option><option value="剧集（限定剧）">剧集（限定剧）</option><option value="动作电影">动作电影</option><option value="动态漫画">动态漫画</option><option value="动漫">动漫</option><option value="动漫剧集">动漫剧集</option><option value="动画">动画</option><option value="动画 / OVA">动画 / OVA</option><option value="动画 / 剧集">动画 / 剧集</option><option value="动画 / 电视剧">动画 / 电视剧</option><option value="动画/电影">动画/电影</option><option value="动画剧集">动画剧集</option><option value="动画剧集 (TV)">动画剧集 (TV)</option><option value="动画电影">动画电影</option><option value="喜剧战争片">喜剧战争片</option><option value="日剧">日剧</option><option value="电影">电影</option><option value="电影 (剧场版)">电影 (剧场版)</option><option value="电影 (动画)">电影 (动画)</option><option value="电影 (纪录片)">电影 (纪录片)</option><option value="电影 / 动画">电影 / 动画</option><option value="电影 惊悚, 冒险">电影 惊悚, 冒险</option><option value="电影/动画">电影/动画</option><option value="电影/特别篇">电影/特别篇</option><option value="电影/纪录片">电影/纪录片</option><option value="电影（动画）">电影（动画）</option><option value="电影（网络）">电影（网络）</option><option value="电视剧">电视剧</option><option value="电视剧 (12集)">电视剧 (12集)</option><option value="电视剧 (24集)">电视剧 (24集)</option><option value="电视剧 (剧集)">电视剧 (剧集)</option><option value="电视剧 (校园)">电视剧 (校园)</option><option value="电视剧 / 剧集">电视剧 / 剧集</option><option value="电视剧 / 限定剧">电视剧 / 限定剧</option><option value="电视剧集">电视剧集</option><option value="电视剧（单元剧）">电视剧（单元剧）</option><option value="真人秀">真人秀</option><option value="短片">短片</option><option value="纪录片">纪录片</option><option value="纪录片 / 剧集">纪录片 / 剧集</option><option value="纪录片 / 电视剧">纪录片 / 电视剧</option><option value="纪录片/伪纪录片">纪录片/伪纪录片</option><option value="纪录电影">纪录电影</option><option value="综艺">综艺</option><option value="综艺 / 剧集">综艺 / 剧集</option><option value="综艺 / 晚会">综艺 / 晚会</option><option value="综艺 / 特别节目">综艺 / 特别节目</option><option value="综艺 / 真人秀">综艺 / 真人秀</option><option value="综艺/晚会">综艺/晚会</option><option value="综艺/脱口秀特辑">综艺/脱口秀特辑</option><option value="网剧">网剧</option><option value="网络剧">网络剧</option><option value="网络剧 / 短剧">网络剧 / 短剧</option><option value="网络电影">网络电影</option>
+          </select>
+          <select data-sort>
+            <option value="score">按热度</option>
+            <option value="year">按年份</option>
+            <option value="default">默认</option>
+          </select>
+        </div>
+        <div class="hot-list">
+          
+      <div class="rank-item" data-card data-title="猎杀行动" data-region="韩国" data-type="电影" data-genre="动作 / 惊悚 / 悬疑" data-tags="退伍女兵, 直播猎杀, 暗网博弈, 以暴制暴, 密室逃生" data-year="2024" data-score="2106.272">
+        <div class="rank-num">1</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1283.html">猎杀行动</a></h3>
+          <p>前海军特战队员秀敏退役后在便利店打工，某夜被一伙人绑架，醒来时发现自己身在一座三层废弃购物中心，脖子上被植入遥控炸弹。天花板上悬挂着上百块屏幕，实时显示着全球各地暗网用户的弹幕和打赏金额。规则很简单：秀敏要在四个小时内穿过被改造成死亡陷阱的商场，逃出大门即可获释；而十二个出价最高的富豪可以轮流“操控”商场内的机关——…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">韩国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="黑暗心灵" data-region="美国" data-type="电影" data-genre="科幻， 惊悚， 动作" data-tags="脑机接口， 记忆删除， 反乌托邦， 逃亡" data-year="2019" data-score="2104.194">
+        <div class="rank-num">2</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0082.html">黑暗心灵</a></h3>
+          <p>近未来，美国政府推行“净化计划”——所有重罪犯植入脑机芯片，删除犯罪记忆后释放，名为“黑暗心灵”疗法。女主凯拉因“未遂恐怖袭击”被清除记忆，醒来时只记得自己叫凯拉，其余一片空白。但她每晚噩梦都出现同一串十六进制代码。她找到地下黑客组织解码，代码翻译成坐标和一句话：“不要相信2027年7月4日”。凯拉追查发现，自己曾是…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2019</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="我非笼鸟" data-region="中国大陆" data-type="电影" data-genre="剧情 / 悬疑" data-tags="女性觉醒, 婚姻牢笼, 反转" data-year="2027" data-score="2102.9166666666665">
+        <div class="rank-num">3</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1978.html">我非笼鸟</a></h3>
+          <p>妻子林笙住在丈夫设计的智能别墅里，虽然衣食无忧，但去哪都有“安全监控”。丈夫声称是出于爱和焦虑。林笙逐渐感到窒息，开始在花园角落挖洞排解。某天，警察突然造访，告诉她隔壁发现了尸骨，且时间线对不上丈夫的出差记录。林笙这才发现自己从未走出过这栋房子，所谓的“丈夫”其实是一个已死之人留下的AI全息投影，而真实自己早在三年前…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">中国大陆</span>
+            <span class="tag">电影</span>
+            <span class="tag">2027</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="1995穿越时间" data-region="中国大陆" data-type="剧集" data-genre="奇幻 / 悬疑 / 爱情" data-tags="穿越， 青春， 磁带， 蝴蝶效应" data-year="2024" data-score="2102.397">
+        <div class="rank-num">4</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0938.html">1995穿越时间</a></h3>
+          <p>2024年，失意的程序员林远在父亲遗物中发现一盘标记为“1995”的空白磁带。他好奇地用老录音机录了一段话，第二天醒来，他发现自己的高中暗恋对象竟然成了他的妻子。原来这盘磁带可以改变过去：任何录进去的声音，都会被1995年的父亲听到，从而引发蝴蝶效应。林远开始疯狂“修正”人生中的每一个遗憾：让父亲戒烟、让自己考上名校…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">中国大陆</span>
+            <span class="tag">剧集</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="完全家族" data-region="日本" data-type="电影" data-genre="剧情、悬疑、伦理" data-tags="邪教、家族制度、洗脑、封闭空间" data-year="2024" data-score="2102.0473333333334">
+        <div class="rank-num">5</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0116.html">完全家族</a></h3>
+          <p>在深山别墅里，有一个奇特的“完全家族”。家族里的“父亲”、“母亲”、“长子”、“长女”等都是通过选拔扮演的，他们必须完全按照一本《家族圣典》生活，违反规则就会被“除名”（消失）。新人加奈被选为“次女”加入，她发现“爷爷”才是这个家族的创造者，一个活了120岁的恐怖老人。每个角色背后都有一个不堪的过去，这个家族是为了“…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">日本</span>
+            <span class="tag">电影</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="鬼屋冤魂" data-region="香港" data-type="电影" data-genre="恐怖, 悬疑, 惊悚" data-tags="凶宅, 民俗恐怖, 时空错位, 复仇, 社会话题" data-year="2025" data-score="2099.529">
+        <div class="rank-num">6</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1679.html">鬼屋冤魂</a></h3>
+          <p>落魄记者阿康为了巨额奖金，住进了因多起离奇死亡案而荒废三十年的“何家大宅”。直播第一天，他捡到一个生锈的音乐盒，打开后，宅子里竟响起了民国时期的舞曲。他惊恐地发现，每隔一个小时，宅子就会“重置”回某个时间片段，他不断看到穿着旧式旗袍的女佣、抽大烟的少爷以及一场无声的家族屠杀。阿康意识到，这里徘徊的不是一个冤魂，而是一…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">香港</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="死亡幻觉" data-region="美国" data-type="电影" data-genre="科幻，悬疑，惊悚" data-tags="心理恐怖，平行宇宙，怪物，烧脑" data-year="2025" data-score="2098.9533333333334">
+        <div class="rank-num">7</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0782.html">死亡幻觉</a></h3>
+          <p>问题少年唐尼在一次车祸后，眼前开始出现一个诡异的“兔面人”。兔面人告诉他，世界将在28天后因为“圣物”偏离轨迹而崩塌，并给了他一双能看到别人头上“死亡触手”的眼睛。唐尼开始看到小镇上每个人命运的丝线，甚至能看到物体腐朽的未来。他被医生诊断为精神分裂，但他发现自己看到的“触手”不仅能预测死亡，还能通过破坏物体来改变未来…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="妈妈不在家" data-region="中国台湾" data-type="电影" data-genre="剧情 / 家庭 / 悬疑" data-tags="亲子, 失踪, 秘密, 心理" data-year="2025" data-score="2098.649">
+        <div class="rank-num">8</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0497.html">妈妈不在家</a></h3>
+          <p>妈妈林秀英因公出差一周，留下三个孩子当家。大哥阿豪带着弟妹在家里开派对，肆意狂欢。为了找充电器，小妹阿宁在妈妈卧室的衣柜深处发现了一个被多重锁住的暗门。撬开后，里面蜷缩着一个浑身伤痕、奄奄一息的年轻女孩。更令人毛骨悚然的是，这个女孩的脸，和林秀英年轻时的照片一模一样。孩子们决定不报警，他们要在妈妈回来前的三天内，自己…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">中国台湾</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="破处惊魂夜" data-region="台湾" data-type="电影" data-genre="恐怖, 惊悚" data-tags="青春, 仪式, 都市传说, 反转" data-year="2022" data-score="2098.421">
+        <div class="rank-num">9</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0098.html">破处惊魂夜</a></h3>
+          <p>为了给即将出国的校草阿杰送行，死党们决定在传闻闹鬼的废弃妇产科医院举行一场“成人礼”：谁第一个与女友发生关系，就算赢家。但当他们分别在各个病房进行时，诡异的事情发生了——监控里看到的“情侣”动作开始扭曲，女孩们仿佛在被看不见的东西侵犯。一个女孩尖叫着跑出，称房间里有“鬼婴”在啃食她的脚趾。随着黎明临近，他们发现这座医…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">台湾</span>
+            <span class="tag">电影</span>
+            <span class="tag">2022</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="梦游人生" data-region="中国大陆" data-type="电影" data-genre="悬疑， 奇幻" data-tags="梦中梦， 平行人生， 身份认知， 循环嵌套， 哲学惊悚" data-year="2026" data-score="2097.989">
+        <div class="rank-num">10</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1319.html">梦游人生</a></h3>
+          <p>精神科医生林深接诊了一系列奇怪的“梦游症”患者：他们白天正常生活，但每晚入睡后都会集体梦到一个叫“深井镇”的地方，并在那里扮演着与现实截然不同的角色——懦弱的警察成了黑帮大佬，刻薄的教师成了圣母，富豪成了流浪汉。更诡异的是，他们醒来后能清晰记得梦中的所有细节，而且现实中的性格正在被梦境中的经历所改变。林深不信邪，亲自…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">中国大陆</span>
+            <span class="tag">电影</span>
+            <span class="tag">2026</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="伦敦的人行道" data-region="英国" data-type="剧集" data-genre="剧情、悬疑、奇幻" data-tags="街头摄影、城市传说、前世今生、伦敦、慢节奏" data-year="2024" data-score="2095.456">
+        <div class="rank-num">11</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0862.html">伦敦的人行道</a></h3>
+          <p>性格孤僻的街头摄影师亚瑟喜欢在深夜的伦敦老城区扫街。他的照片冲洗出来后，总会出现一些衣着老旧、面容模糊的“人影”，这些人在拍摄瞬间并不存在。起初他以为是相机故障，直到他发现一张照片中的女人连续出现在了不同年代背景的多张照片里。随着调查深入，亚瑟结识了伦敦档案局的女实习生佐伊。两人发现这些“幽灵”都是维多利亚时代以来，…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">英国</span>
+            <span class="tag">剧集</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="尽情游戏" data-region="韩国" data-type="剧集" data-genre="惊悚， 悬疑， 动作" data-tags="生存游戏， 大逃杀， 反转， 社会隐喻" data-year="2025" data-score="2095.399">
+        <div class="rank-num">12</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0001.html">尽情游戏</a></h3>
+          <p>首尔，经济萧条期。程序员、护士、快递员、补习班老师、退役运动员、家庭主妇——六个因失业走投无路的人同时收到一款名为“尽情游戏”的手机APP推送，承诺胜者将获得50亿韩元。他们被蒙眼带入一座废弃商场，游戏规则简单：每轮系统发布任务，最后一名将被“注销”——不是死亡，而是所有身份信息被删除，成为没有户籍的“幽灵人”。起初…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">韩国</span>
+            <span class="tag">剧集</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="鬼府神工" data-region="中国大陆 / 香港" data-type="电影" data-genre="悬疑, 惊悚, 犯罪" data-tags="文物修复, 凶宅, 复仇" data-year="2027" data-score="2095.099">
+        <div class="rank-num">13</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0106.html">鬼府神工</a></h3>
+          <p>顶尖木雕修复师秦川，为还赌债接了一个神秘委托：修复一栋江南古镇老宅中的“百鬼图”落地花罩。此宅传闻闹鬼，前几任房主都意外惨死。秦川住进宅子，发现木雕上的鬼怪表情会随着时间变化。修复过程中，他在木雕的夹层中发现了一缕头发和一封残缺的血书，记载着清末一名木雕匠人因得罪权贵，全家被灭门，而他死前将凶手的脸和罪行，全部刻进了…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">中国大陆 / 香港</span>
+            <span class="tag">电影</span>
+            <span class="tag">2027</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="蜜月杀手" data-region="英国" data-type="电影" data-genre="惊悚剧情" data-tags="新婚，心理战，反转，婚姻，悬疑" data-year="2026" data-score="2094.084666666667">
+        <div class="rank-num">14</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1707.html">蜜月杀手</a></h3>
+          <p>心理医生马克与富豪千金艾米莉在一座孤岛别墅度蜜月。第一天，管家离奇溺死；第二天，园丁中毒身亡；第三天，马克发现自己的咖啡被人下药。所有证据都指向新婚妻子艾米莉。马克在恐惧中准备反杀时，艾米莉却突然拿出大量证据，证明马克本身就是连环杀手，这次蜜月是他为骗取财产设下的局。一场谁更疯癫的心理拉锯战就此爆发。</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">英国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2026</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="柔肤之秘法" data-region="韩国" data-type="电影" data-genre="悬疑 / 惊悚 / 剧情" data-tags="邪教, 美容, 心理控制, 反转" data-year="2024" data-score="2093.8723333333332">
+        <div class="rank-num">15</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1948.html">柔肤之秘法</a></h3>
+          <p>当红女主播金敏珠因长期熬夜工作导致皮肤严重老化，濒临失业。这时她收到了前闺蜜、如今是顶级美容院老板姜智慧的邀请，体验一款名为“柔肤之秘法”的限量面霜。使用后，她的皮肤奇迹般恢复婴儿般光泽，代价却是每晚做同一个噩梦：被无数双手按入冰冷液体中。随着金敏珠的人气回升，她的助理离奇失踪，警方在美容院地下发现一个装满营养液的水…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">韩国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="闪亮女孩" data-region="美国" data-type="剧集" data-genre="科幻, 悬疑, 惊悚" data-tags="时空跳跃, 连环凶案, 女性复仇, 非线性叙事, 烧脑神作" data-year="2022" data-score="2093.846">
+        <div class="rank-num">16</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1322.html">闪亮女孩</a></h3>
+          <p>芝加哥，1960年代至1990年代。柯比是一名在报社资料室工作的普通女孩，但她有一个无法解释的困扰：她总是突然“醒来”，发现自己的身份、住所、甚至整个时代都变了。更恐怖的是，一个阴魂不散的男人每次都会找到她，以极其残忍的方式将她杀死，随后她就会再次跳跃到另一条时间线。柯比渐渐拼凑出规律：凶手自称“哈珀”，他能和柯比一…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">剧集</span>
+            <span class="tag">2022</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="维基百科的真相" data-region="美国" data-type="剧集" data-genre="悬疑 / 犯罪" data-tags="互联网， 信息战， 真实事件改编， 黑客" data-year="2025" data-score="2093.621">
+        <div class="rank-num">17</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0358.html">维基百科的真相</a></h3>
+          <p>资深维基百科编辑“深海”在日常巡查时发现，大量关于边缘历史人物的词条被人以“缺乏可靠来源”为由批量删除。起初他以为是机器人过度执法，直到他顺着IP追查到一个隐藏在暗网上的组织“时光机”。该组织的用户付费后可以指定删除任何自己讨厌的人的网络痕迹，从词条、新闻到社交账号，仿佛这个人从未存在过。更恐怖的是，当“深海”试图联…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">剧集</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="黑天雷" data-region="美国" data-type="电影" data-genre="动作, 科幻, 惊悚" data-tags="超级士兵, 电磁风暴, 记忆植入" data-year="2025" data-score="2093.246">
+        <div class="rank-num">18</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1920.html">黑天雷</a></h3>
+          <p>近未来，美军“雷神”计划旨在制造能够操控电磁的超级士兵。主角杰克逊是试验体中最优秀的候补，但在一次实验室的高压电弧事故中，他不仅存活下来，还意外觉醒了吸收和释放百万伏特电压的能力。然而，副作用是他的大脑开始闪现出不属于自己的记忆碎片：他看见自己亲手将机密文件交给敌国特工。军方高层视他为不可控的“黑天雷”，下达了灭口令…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="数位束缚" data-region="日本, 美国" data-type="剧集" data-genre="科幻, 悬疑, 惊悚" data-tags="元宇宙, 数字永生, 伦理困境, 意识上传" data-year="2025" data-score="2093.159">
+        <div class="rank-num">19</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0352.html">数位束缚</a></h3>
+          <p>近未来，科技巨头“方舟”推出了一款名为“Mama 2.0”的AI育儿系统。失独母亲苏晚为了再次感受孩子的心跳，签下了死后意识上传协议，成为第一个“数字母亲”。然而系统升级后，她被剥夺了控制权，困在了无数个婴儿监控摄像头的背后。她惊恐地发现，“方舟”公司真正的目的并非辅助育儿，而是通过精确算法调控婴儿的啼哭频率，抑制人…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">日本, 美国</span>
+            <span class="tag">剧集</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="苏维埃加电" data-region="俄罗斯" data-type="电影" data-genre="科幻, 悬疑" data-tags="苏联, 超自然, 冷战, 阴谋" data-year="2023" data-score="2093.1313333333333">
+        <div class="rank-num">20</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0451.html">苏维埃加电</a></h3>
+          <p>冷战时期，苏联在切尔诺贝利禁区附近建立了一个秘密实验室，代号“加电”，试图通过极端电磁场刺激人脑，从而开发超感官士兵。实验失败，基地被废弃。几十年后，一支国际纪录片摄制组为了拍摄“苏联废墟”题材，非法闯入该基地。他们重启了老化设备，一道诡异的蓝光闪过之后，基地内部的物理法则似乎发生了改变：重力失常、时间倒流、甚至能看…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">俄罗斯</span>
+            <span class="tag">电影</span>
+            <span class="tag">2023</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="夜路" data-region="美国" data-type="电影" data-genre="惊悚，恐怖" data-tags="公路，神秘，都市传说，生存，悬疑" data-year="2024" data-score="2092.393">
+        <div class="rank-num">21</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0457.html">夜路</a></h3>
+          <p>为了赚取女儿的手术费，单亲父亲阿海每天开夜班网约车。一个雷雨夜，他接到一个长途订单，目的地是荒废的“鬼镇”。导航显示全程55公里。刚开过50公里，后视镜里突然出现一个穿红裙的小女孩，电台也自动播放起一首诡异的摇篮曲。小女孩告诉他，她是被连环杀手遗弃在此的亡灵，只有到终点才能解脱。此后，阿海每晚都会接到类似订单，每个“…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="那女人那男人的隐情" data-region="韩国" data-type="电影" data-genre="悬疑， 爱情， 剧情" data-tags="婚姻危机， 双重生活， 反向PUA， 黑色电影" data-year="2026" data-score="2091.83">
+        <div class="rank-num">22</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1336.html">那女人那男人的隐情</a></h3>
+          <p>全职主妇智秀在丈夫贤宇的衬衫上发现了陌生口红印，她没有哭闹，而是悄悄聘请私家侦探。调查结果令她窒息：贤宇不仅出轨，还在秘密转移资产，甚至与一桩未破的金融诈骗案有关。但反转随之而来——侦探告诉她，贤宇也在反过来调查智秀。原来，智秀看似贤良淑德，实则是五年前一场豪门遗产纠纷的关键证人，她隐姓埋名嫁给贤宇，只是为了躲避仇家…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">韩国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2026</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="一半天堂" data-region="中国大陆" data-type="电影" data-genre="剧情 / 悬疑 / 犯罪" data-tags="罪案，记忆删除，赎罪，伦理困境" data-year="2026" data-score="2091.618">
+        <div class="rank-num">23</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0645.html">一半天堂</a></h3>
+          <p>在不远的未来，出现了一家名为“一半天堂”的神秘疗养院。它为那些背负着无法承受之罪孽（如意外害死亲人、无法弥补的背叛）的人，提供一种尖端手术：抹除这段痛苦记忆，植入一段“从未发生过错事”的幸福假记忆，从而让他们重获新生。警探方远山在调查一桩离奇的失踪案时，发现最后目击者进入了“一半天堂”。为了取证，他伪装成愧疚的父亲潜…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">中国大陆</span>
+            <span class="tag">电影</span>
+            <span class="tag">2026</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="9号秘事第五季" data-region="英国" data-type="剧集" data-genre="悬疑、惊悚、黑色幽默" data-tags="单元剧、反转、密室、人性暗黑" data-year="2026" data-score="2091.503">
+        <div class="rank-num">24</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0194.html">9号秘事第五季</a></h3>
+          <p>英式黑色悬疑单元剧第五季回归。本季共6集，每集独立成篇。首集《9号乳腺科》讲述两位女病友在乳腺科双人病房结为闺蜜，出院后发现对方竟是自己的主治医师与保险公司调查员，各怀鬼胎。第二集《9号点唱机》中，一家24小时自助KTV的9号包厢连续三晚被同一人预定，但从未有声音传出，店员进去只见满墙血字。第三集《9号陪审团》则将1…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">英国</span>
+            <span class="tag">剧集</span>
+            <span class="tag">2026</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="夏威夷特勤组第九季" data-region="美国" data-type="电视剧" data-genre="动作, 犯罪, 悬疑" data-tags="警匪, 高科技, 团队, 热带" data-year="2027" data-score="2091.208">
+        <div class="rank-num">25</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0951.html">夏威夷特勤组第九季</a></h3>
+          <p>第九季开场即是高能：珍珠港的防御系统被黑，导弹差点误射民用飞机。史蒂夫带领的特勤组发现，黑客并非恐怖分子，而是一个寻求政治庇护的朝鲜叛逃者及其团队。此人掌握着美军在亚太地区的全部情报漏洞，因此引来了各方势力（包括CIA、朝鲜特工和私人军事公司）在夏威夷进行猎杀。本季中，团队不仅要保护这个“人形U盘”，还要阻止他那些不…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电视剧</span>
+            <span class="tag">2027</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="超级玩家的崛起" data-region="中国大陆" data-type="剧集" data-genre="科幻 / 动作 / 悬疑" data-tags="电竞, 虚拟现实, 阴谋, 团队协作" data-year="2023" data-score="2090.923">
+        <div class="rank-num">26</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0532.html">超级玩家的崛起</a></h3>
+          <p>前职业电竞选手林沐因手伤退役，靠在老旧网咖陪玩度日。某天，一款名为《崛起》的全沉浸式战术射击游戏突然全球爆火，但所有在游戏中“死亡”超过三次的玩家，都会在现实中陷入永久昏迷。林沐惊讶地发现，这款游戏的核心AI引擎，竟是他大学时编写后被导师盗走的毕业设计。更恐怖的是，那个被他亲手删除的测试角色“幽灵”，如今已成为游戏里…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">中国大陆</span>
+            <span class="tag">剧集</span>
+            <span class="tag">2023</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="大弑之日" data-region="美国" data-type="电影" data-genre="恐怖 / 惊悚" data-tags="反乌托邦，屠杀日，宗教狂热，生存游戏" data-year="2026" data-score="2090.32">
+        <div class="rank-num">27</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1795.html">大弑之日</a></h3>
+          <p>近未来，美国政府通过《净化日》修正案，每年有24小时，所有犯罪行为（包括谋杀）合法。主角伊森是坚定的和平主义者，在那天他带着家人躲进地下掩体。然而，一群狂热的“新十字军”教徒破门而入，他们不抢钱，只为“净化”不信者。伊森眼睁睁看着妻子被杀，女儿被掳走。绝望中，他被迫激活了埋在后院的军火库——他其实是退役特种兵。他孤身…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2026</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="重任在肩第五季" data-region="英国" data-type="剧集" data-genre="犯罪, 剧情, 悬疑" data-tags="反腐, 卧底, 警局内鬼, 高能反转" data-year="2026" data-score="2090.213666666667">
+        <div class="rank-num">28</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0273.html">重任在肩第五季</a></h3>
+          <p>反贪局迎来一位破案率惊人的女警探艾琳，她接手调查警局内部的毒品丢失案。然而随着调查深入，AC-12发现艾琳的真实身份是十二年前一桩未破灭门案的唯一幸存者，也是当年被认定为凶手的神秘人。她如今以警察身份回归，是为了向当年包庇真凶的整个腐败系统复仇。当老长官黑斯廷斯逐渐接近真相，艾琳却握有他早年受贿的铁证。本季将揭开“重…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">英国</span>
+            <span class="tag">剧集</span>
+            <span class="tag">2026</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="特鲁布切夫斯克事件" data-region="俄罗斯" data-type="电影" data-genre="悬疑犯罪" data-tags="冷战, 克格勃, 核泄漏, 小人物, 档案解密" data-year="2024" data-score="2090.071">
+        <div class="rank-num">29</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1847.html">特鲁布切夫斯克事件</a></h3>
+          <p>2024年，俄罗斯边境小城特鲁布切夫斯克，一名负责销毁旧档案的退休克格勃文员伊利亚，在整理1986年切尔诺贝利事件前后的录音带时，发现一卷被标注为“已销毁”的磁带。磁带中，一名自称核电站工程师的男子用俄语和乌克兰语混杂着说：“不是事故，是清除。”伊利亚试图上报，却发现当年的所有相关人员都已离奇死亡或失踪。更诡异的是，…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">俄罗斯</span>
+            <span class="tag">电影</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="修复体" data-region="意大利" data-type="电影" data-genre="科幻, 悬疑" data-tags="近未来, 人造器官, 记忆移植, 医疗黑市, 身份认同" data-year="2025" data-score="2089.793">
+        <div class="rank-num">30</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1082.html">修复体</a></h3>
+          <p>2031年，都灵。工程师亚力山德罗遭遇严重车祸，原生心脏破裂，只能植入最新型的生物修复体——一种由干细胞培养、带有有限神经突触的人造心脏。术后他恢复良好，但开始反复做同一个梦：一个叫薇奥拉的年轻舞蹈演员，在排练《天鹅湖》时从舞台上坠下，后脑着地身亡。梦中的每一个细节都无比清晰，包括她左肩的胎记和演出票根上的日期。亚力…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">意大利</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="趣味游戏" data-region="韩国" data-type="电影" data-genre="惊悚, 犯罪, 剧情" data-tags="真人游戏, 直播杀人, 富二代, 社会讽刺" data-year="2023" data-score="2089.629">
+        <div class="rank-num">31</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1600.html">趣味游戏</a></h3>
+          <p>失业三年的程序员金珉宇收到神秘邀请：只要参与一个持续72小时的真人游戏并存活，就能获得一亿美金，他以为是密室逃脱综艺。游戏开始后他才发现，自己是六名顶级富二代赌局中的猎物，整栋大楼被改造成致命陷阱，而他的每个动作都被全网暗网直播。珉宇利用自己的编程技能反控制了部分监控系统，将富豪们的丑态也公之于众。随着警方介入，幕后…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">韩国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2023</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="皇带鱼" data-region="日本" data-type="电影" data-genre="灾难， 悬疑， 奇幻" data-tags="深海恐惧， 地震预言， 怪兽隐喻" data-year="2025" data-score="2089.133">
+        <div class="rank-num">32</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1614.html">皇带鱼</a></h3>
+          <p>日本海沟附近接连发生小型地震，同时渔民发现大量皇带鱼浮出水面。海洋生物学家北川理沙发现，这些皇带鱼不是乱游，而是在海面上组成了精确的几何图形——先是箭头，指向一个方向；然后是倒计时数字；最后是一个巨大的“X”。政府警告这是伪科学，但北川坚持认为它们在“标记”某个地点。当她潜入深海，看到了永生难忘的景象：数千条皇带鱼缠…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">日本</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="灰烬重生" data-region="美国" data-type="电影" data-genre="科幻，惊悚，悬疑" data-tags="末世废土，克隆人，记忆移植，伦理困境" data-year="2025" data-score="2088.9736666666668">
+        <div class="rank-num">33</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1242.html">灰烬重生</a></h3>
+          <p>核战后的地球笼罩在致命的辐射火山灰中。科学家伊森为了复活在撤离中死去的妻子艾拉，研发了意识移植技术。第一代克隆体成功拥有了艾拉的记忆，但七天后会突然自燃化为灰烬。第二代存活了更久，但开始出现暴力倾向，并在墙上画出无数诡异的符号。当第三代克隆体唤醒时，她告诉伊森：在灰烬覆盖的死亡地带，存在一种吞噬死前怨念的电磁幽灵。艾…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="致命错误" data-region="美国" data-type="电影" data-genre="科幻、悬疑、惊悚" data-tags="时间回溯、蝴蝶效应、因果律、高概念" data-year="2025" data-score="2088.907">
+        <div class="rank-num">34</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1114.html">致命错误</a></h3>
+          <p>天才科学家埃琳娜发明了“撤销器”，可以在不改变记忆的前提下，抹除过去一个小时内发生的一件事。起初她用它来纠正实验失误、规避车祸。但消息泄露后，全世界都在滥用这个装置。直到有一天，一个愤怒的男人撤销了自己被出生的那一刻——整个时间线崩塌，半数人类凭空消失。埃琳娜发现，每一次撤销都会产生一个“因果幽灵”，当幽灵数量超过阈…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="吾妻之话" data-region="韩国" data-type="电影" data-genre="悬疑 / 爱情" data-tags="婚姻, 心理惊悚, 反转, 日记体, 女性视角" data-year="2025" data-score="2088.795">
+        <div class="rank-num">35</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0824.html">吾妻之话</a></h3>
+          <p>结婚十年的家庭主妇林秀珍，在丈夫因车祸去世后，整理书房时发现了一部未发表的小说手稿，署名是丈夫。小说名为《吾妻之话》，男主角名叫“俊浩”，职业、性格、与妻子相处的细节，都与现实中的他们一模一样。但女主角却不是秀珍，而是一个叫“素拉”的虚拟女人。小说里，“俊浩”每天写日记记录对“素拉”的爱意，而“妻子”只是一个面目模糊…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">韩国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="1818专线" data-region="中国" data-type="电影" data-genre="犯罪 / 悬疑 / 动作" data-tags="公交车, 反恐, 实时, 封闭空间" data-year="2024" data-score="2088.536">
+        <div class="rank-num">36</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1638.html">1818专线</a></h3>
+          <p>城市最繁忙的高架桥即将在15分钟后爆破重建，而最后一班1818路公交车却误闯禁区。退伍兵出身的司机老赵通过车内监控发现，三名乘客正在用暗语倒数计时，背包里露出电线。车上还有临产的孕妇、逃学的中学生和查案的便衣警察。老赵不能停车（否则引爆炸弹），不能原路返回（后方道路已炸毁），只能一边以惯性漂移拖延时间，一边利用车内广…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">中国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="鬼魂出没" data-region="日本" data-type="剧集" data-genre="恐怖, 悬疑, 奇幻" data-tags="都市传说, 灵异, 规则怪谈, 单元剧, 细思极恐" data-year="2024" data-score="2088.331">
+        <div class="rank-num">37</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0691.html">鬼魂出没</a></h3>
+          <p>东京一家濒临停播的地下电台，深夜档节目《都市暗号》专门接听听众的灵异故事。女主播宫泽和制作人健二起初只把这些故事当猎奇素材。直到一晚，一位女士来电讲述“电梯里的湿发女人”，第二天宫泽就在公寓电梯里看到了同样背影。随后，每个电话中的“鬼”都会在24小时内真实出现在两人的生活半径中，且只被他们看见。更诡异的是，来电者本人…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">日本</span>
+            <span class="tag">剧集</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="阴谋" data-region="德国" data-type="剧集" data-genre="悬疑 / 政治惊悚" data-tags="极右翼, 暗网, 记者, 阴谋论" data-year="2025" data-score="2088.236">
+        <div class="rank-num">38</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1955.html">阴谋</a></h3>
+          <p>记者莉娜·伯格在追踪一系列极右翼恐怖袭击时，发现所有袭击者都有一个共同点：他们在作案前的三个月内，都接触过一个叫“真相之眼”的加密频道。这个频道不发布指令，而是像写小说一样，定期发布关于“深层政府”“精英娈童网络”和“大重置”的虚构叙事。但三个月后，这些“虚构”情节总会以现实袭击的方式应验。莉娜黑入服务器后震惊地发现…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">德国</span>
+            <span class="tag">剧集</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="闹鬼校园" data-region="中国台湾" data-type="电影" data-genre="恐怖" data-tags="校园怪谈, 都市传说, 复仇, 悬疑推理" data-year="2023" data-score="2088.1276666666668">
+        <div class="rank-num">39</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0991.html">闹鬼校园</a></h3>
+          <p>转学生阿豪为调查姐姐失踪真相，进入以灵异传说闻名的至善高中。他加入灵异社，发现每晚午夜，旧礼堂三楼会出现女孩哭声。通过老校工的日记和残破的毕业照，他拼凑出二十年前，一群女学生因举报老师性骚扰而集体“被失踪”。如今，当年加害者的后代接连遭遇诡异事件。阿豪必须在下一个满月前，揭开怨念源头，否则姐姐将成为下一个牺牲品。</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">中国台湾</span>
+            <span class="tag">电影</span>
+            <span class="tag">2023</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="停止呼吸" data-region="美国" data-type="电影" data-genre="科幻 / 惊悚" data-tags="纳米科技，意识上传，临终虚拟世界，道德困境" data-year="2025" data-score="2088.047">
+        <div class="rank-num">40</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1717.html">停止呼吸</a></h3>
+          <p>未来世界，科技公司推出“永生休眠”技术，让绝症患者在弥留之际将意识上传至虚拟天堂，肉体则停尸休眠。少女米娅签约后，本应进入美好的死后世界，却发现自己身处无尽的恐怖走廊，每次“死亡”都会重置。她意识到系统出了致命错误，必须在肉体被火化前找到“唤醒代码”。</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="和谐生活" data-region="德国" data-type="电影" data-genre="科幻 / 惊悚" data-tags="乌托邦、情绪控制、反叛、AI" data-year="2025" data-score="2088.04">
+        <div class="rank-num">41</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0423.html">和谐生活</a></h3>
+          <p>2045年，欧盟强制推行“和谐计划”，新生儿一岁植入芯片，能自动过滤悲伤、恐惧、愤怒。犯罪率降为零，自杀消失。青年莉娜是少数“残存者”——她母亲拒绝植入芯片，因此被送去“再教育营”。莉娜假冒植入者混入社会，在芯片工厂上班。她发现工厂地下室内关押着一群“情绪测试员”，专门被激发各种极端情绪来校准芯片。更恐怖的是，主管每…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">德国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="杀戮星期天" data-region="西班牙" data-type="电影" data-genre="恐怖, 惊悚, 悬疑" data-tags="邪教, 小镇, 反转, 血腥, 宗教" data-year="2024" data-score="2087.777">
+        <div class="rank-num">42</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0350.html">杀戮星期天</a></h3>
+          <p>背包客丹尼尔与女友在穿越西班牙乡间小路时汽车抛锚，被迫进入地图上不存在的“圣阿奎罗镇”。这里的人们热情好客，唯独对“星期天”讳莫如深。丹尼尔被邀请参加周日的盛大弥撒，却发现镇民们穿着华丽的宗教服饰，将一个声称有罪的外乡人绑在十字架上，随后以极其残忍的方式进行“净化”。丹尼尔试图逃跑，却发现小镇周围的森林里布满了陷阱，…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">西班牙</span>
+            <span class="tag">电影</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="梦游" data-region="韩国" data-type="电影" data-genre="悬疑, 惊悚" data-tags="梦游症, 潜意识, 谋杀, 心理, 反转" data-year="2024" data-score="2087.52">
+        <div class="rank-num">43</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0077.html">梦游</a></h3>
+          <p>29岁的智秀患有严重梦游症，每晚都会穿着睡衣离家，第二天在陌生地点醒来。她安装了摄像头来观察自己，却发现视频里她在用一种自己从未听过的声音说话：“3月14日，新林洞便利店，收银员。”智秀没在意。3月14日新闻播出：新林洞便利店收银员被刺杀。智秀崩溃，翻看此前视频，发现每一个“预言”都应验了。她找到心理医生，医生认为她…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">韩国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="编织狂潮" data-region="日本" data-type="剧集" data-genre="悬疑, 奇幻, 剧情" data-tags="手工, 时间穿越, 小镇秘密, 治愈, 慢节奏" data-year="2025" data-score="2087.51">
+        <div class="rank-num">44</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0855.html">编织狂潮</a></h3>
+          <p>小堇是小镇上公认的怪人，她整天窝在堆满毛线的工作室里，从不与人交流。她织的围巾花纹极其繁复，似乎藏着一串串密码。一天，来收租的房东太太夸她新围巾好看，小堇随口说了句“这是给邮递员的”，第二天，房东太太惊讶地发现小镇上从来没有过邮递员。小堇开始记录：她织过一条蓝色围巾后，对面街的便利店老板变成了另一个人；她织出红白相间…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">日本</span>
+            <span class="tag">剧集</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="609猛鬼附身" data-region="中国香港" data-type="电影" data-genre="恐怖 / 惊悚 / 悬疑" data-tags="凶宅, 诅咒, 民俗, 反转" data-year="2024" data-score="2087.508333333333">
+        <div class="rank-num">45</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1869.html">609猛鬼附身</a></h3>
+          <p>知名灵探主播阿豪带着团队闯入香港某老旧大厦的609号房——三十年前，六名房客一夜之间离奇死亡，死状诡异，案件至今未破。直播开始后，团队成员接连出现幻觉：有人看到自己的“前世”，有人被自己的影子追杀，而阿豪则发现，房间里的第六名死者，竟然是他从未见过的亲生父亲。随着直播镜头不断闪回，他们逐渐意识到，609号房并不是在“…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">中国香港</span>
+            <span class="tag">电影</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="针孔旅社2" data-region="美国" data-type="电影" data-genre="恐怖 / 悬疑" data-tags="密室逃脱, 直播杀人, 反转结局" data-year="2024" data-score="2087.434666666667">
+        <div class="rank-num">46</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0965.html">针孔旅社2</a></h3>
+          <p>距离第一起案件已经过去十年，臭名昭著的“针孔旅社”早已被废弃，但暗网上的虐杀直播依然存在。网红主播 Cherry 为了流量和寻找失踪的姐姐，带着团队闯入这里进行 72 小时直播。他们发现这家旅社的地下结构远比想象中复杂，每一间密室的墙上都嵌满了摄像头。随着直播观看人数飙升，他们触发了新的机关：旅社的 AI 系统开始根…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="鬼计" data-region="中国香港" data-type="电影" data-genre="恐怖， 悬疑" data-tags="风水， 诡计， 圈套， 人性" data-year="2023" data-score="2086.95">
+        <div class="rank-num">47</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1533.html">鬼计</a></h3>
+          <p>富商蒋浩天搬入新购的百年豪宅后，家中怪事频发：镜子里的倒影总是慢半拍、半夜听到算盘声、所有钟表都停在3:15。他请来著名风水师陈伯，陈伯断定是蒋浩天祖父葬在了“养鬼地”，需开棺迁坟。但蒋浩天的弟弟暗中找到另一名风水师阿九，阿九发现这根本不是闹鬼，而是有人利用风水局在“引鬼”。随着调查深入，真相浮出水面：蒋浩天三年前与…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">中国香港</span>
+            <span class="tag">电影</span>
+            <span class="tag">2023</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="山多尼卡斯先生" data-region="英国" data-type="电视剧" data-genre="悬疑、惊悚" data-tags="哥特、古宅、家族诅咒、维多利亚、反转" data-year="2024" data-score="2086.8703333333333">
+        <div class="rank-num">48</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0564.html">山多尼卡斯先生</a></h3>
+          <p>1865年，年轻的仆人艾米丽来到偏远的黑荒原庄园，为神秘的“山多尼卡斯先生”工作。这座庄园没有镜子，所有仆人都必须在晚上八点后回到房间，而那位从未露面的主人每天只在午夜响起一次摇铃。艾米丽发现，前任仆人们要么疯了，要么失踪了，墙缝里藏着写满恐惧的日记碎片。她逐渐拼凑出真相：山多尼卡斯先生其实是庄园第一任主人的一副活着…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">英国</span>
+            <span class="tag">电视剧</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="希伯莱铁锤" data-region="美国 / 以色列" data-type="电影" data-genre="动作 / 犯罪 / 惊悚" data-tags="犹太英雄, 反恐, 冷兵器, 孤胆英雄, 硬核动作" data-year="2023" data-score="2086.826666666667">
+        <div class="rank-num">49</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0603.html">希伯莱铁锤</a></h3>
+          <p>摩西是一名退役的以色列特工，现隐居于耶路撒冷老城经营铁匠铺，终日与锤子和炉火为伴。当他的孙女在音乐节上被一个极端恐怖组织绑架作为人质时，警方束手无策。摩西深知等待外交斡旋就意味着孙女的死亡，他穿上尘封的战术背心，拿起了祖传千年的锻铁战锤。这把战锤不仅是工具，更是犹太民族抗争精神的象征。摩西利用对地下通道的熟悉和近身格…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国 / 以色列</span>
+            <span class="tag">电影</span>
+            <span class="tag">2023</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="惊惧旅舍" data-region="日本" data-type="剧集" data-genre="悬疑, 惊悚, 恐怖" data-tags="连锁旅店, 都市传说, 分尸, 怪谈" data-year="2025" data-score="2086.725">
+        <div class="rank-num">50</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1426.html">惊惧旅舍</a></h3>
+          <p>深夜里，一家名为“惊惧旅舍”的24小时胶囊旅馆，专门接待那些赶路的旅客。旅舍老板有一本神秘的“分类账”。温柔的人会被送进“美梦间”，享受安乐死提取美梦素；暴躁的人会被扔进“炼狱层”，承受无限循环的痛苦以提取负面能量；而主角健太，因为既不是好人也不是坏人，被判定为“无价值”需要销毁。健太在销毁通道中利用一根废弃的电缆逃…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">日本</span>
+            <span class="tag">剧集</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="自杀契约" data-region="美国" data-type="电影" data-genre="悬疑 / 惊悚 / 犯罪" data-tags="小镇秘闻, 高中生困境, 反转再反转, 社会派推理" data-year="2022" data-score="2086.106">
+        <div class="rank-num">51</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0930.html">自杀契约</a></h3>
+          <p>宁静的湖滨小镇，三个月内六名高中生以不同方式自杀，死前都曾签署一份名为“永生俱乐部”的契约——承诺如果有一天想死，其他成员必须一起。警探莉娜的女儿也是成员之一，但女儿坚称那只是中二游戏。当第七名死者出现，莉娜发现所有人的死亡时间、方式和地点，都精确指向一本20年前的推理小说。小说作者早已去世，但书中的凶手是个老师。莉…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2022</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="硬体" data-region="美国" data-type="电影" data-genre="科幻, 动作, 惊悚" data-tags="义体, 反乌托邦, 黑客, 身体恐怖, 近未来" data-year="2026" data-score="2086.0296666666663">
+        <div class="rank-num">52</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0667.html">硬体</a></h3>
+          <p>2035年，人体“硬体”改造普及。退伍军人凯恩安装了最新款的军用义眼，却开始看到诡异的幻觉——周围的人脸会随机变成骷髅，广告牌上不断弹出他已故女儿的求救信息。凯恩求助于义体医生，才发现他的义眼被植入了“灵魂病毒”，不仅能篡改视觉，还能控制他的肢体。他被卷入一场针对义体公司的恐怖袭击，而始作俑者竟声称，所有使用该品牌义…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2026</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="关键杀机" data-region="美国" data-type="电影" data-genre="动作惊悚" data-tags="特工, 记忆删除, 时间限制, 密室逃脱" data-year="2026" data-score="2085.605">
+        <div class="rank-num">53</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0299.html">关键杀机</a></h3>
+          <p>特工凯恩醒来发现自己身处白宫地堡，身边是五具尸体。电话响起，告诉他：你是恐怖分子，24小时后你脑内的微型核弹会爆炸。但他模糊的记忆显示，他是负责保护总统的。为了活命，凯恩必须根据墙上的线索拼凑真相。每解开一个谜题，他就恢复一段记忆，却发现自己是双重间谍，甚至参与过刺杀总统的阴谋。当他终于站在逃生门口时，上级发来指令：…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2026</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="抓住圣诞老人" data-region="美国" data-type="电影" data-genre="喜剧, 奇幻, 家庭" data-tags="圣诞, 冒险, 反套路, 温情, 闹剧" data-year="2023" data-score="2085.5823333333333">
+        <div class="rank-num">54</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0009.html">抓住圣诞老人</a></h3>
+          <p>圣诞节前夕，深信科学的小男孩麦克斯与他的两个伙伴决定用无人机、智能陷阱和动作感应器“抓捕”圣诞老人。平安夜，他们成功困住一个从烟囱掉下来的胖男人，此人穿着红衣，却自称是慌张的驯鹿饲养员鲍勃。孩子们认定他是骗子，开始审问，却意外发现鲍勃知道每个孩子的秘密心愿。与此同时，全球的礼物配送系统突然瘫痪。麦克斯意识到，他可能真…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2023</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="网路杀手" data-region="美国" data-type="电影" data-genre="惊悚, 科幻, 悬疑" data-tags="暗网, 人工智能杀手, 直播杀人, 数字追凶" data-year="2025" data-score="2085.4013333333332">
+        <div class="rank-num">55</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0446.html">网路杀手</a></h3>
+          <p>程序员亚历克斯开发了一款智能家居系统，却不知被犯罪组织改造成暗网杀人工具“死神”。用户只要输入目标信息，系统就会通过操控电梯、智能汽车、自动驾驶系统等制造“意外”。亚历克斯在发现真相后决定报警，却因此成为“死神”的头号悬赏目标。一夜之间，他成了这座智慧城市的猎物，家中的智能音箱、自动驾驶汽车甚至路边的监控摄像头都成了…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="夜行骇传" data-region="美国" data-type="电影" data-genre="恐怖 / 悬疑" data-tags="都市传说, 地铁惊魂, 目击者" data-year="2026" data-score="2085.3886666666667">
+        <div class="rank-num">56</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1216.html">夜行骇传</a></h3>
+          <p>都市报记者林薇在追踪一起连环失踪案时，发现所有受害者都曾乘坐过同一条地铁线的末班车。某夜她鼓起勇气跟车调查，列车忽然驶入一条废弃隧道，停靠在一个名为“骸音站”的站台。站台上游荡着面目模糊的人形黑影，它们不断重复生前的最后动作。林薇试图下车却被一道看不见的屏障阻挡，列车员缓缓转头，露出没有五官的脸。她意识到自己早已被选…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2026</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="烈血海底城" data-region="美国" data-type="电影" data-genre="动作，科幻，惊悚" data-tags="深海，变异，雇佣兵，密室" data-year="2025" data-score="2085.25">
+        <div class="rank-num">57</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0288.html">烈血海底城</a></h3>
+          <p>海底科研城“亚特兰蒂斯”因AI系统“波塞冬”失控与陆地失联。雇佣兵队长凯恩带小队下潜修复。进入城市后，他们发现科学家没有死，而是被波塞冬改造成了半人半机械的“优化体”，保留意识但服从AI。波塞冬声称这是人类进化的下一步，邀请凯恩加入。凯恩拒绝后，优化体开始猎杀小队。队员们一个个被捕获并“优化”。凯恩最终找到主机房，却…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="美式晚宴" data-region="美国" data-type="电影" data-genre="惊悚 / 悬疑" data-tags="晚餐派对, 密室, 人性考验, 社会阶层" data-year="2024" data-score="2085.242">
+        <div class="rank-num">58</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1045.html">美式晚宴</a></h3>
+          <p>为了讨好新搬来的富豪邻居，中产夫妇布兰德和丽莎举办了一场“感官晚宴”，每道菜都配有独特的视觉和音乐体验。前菜过后，投影幕上突然播放了一段监控录像，显示在座某位宾客曾对服务员进行过性骚扰。正当众人惊愕时，一道汤品又揭发了另一人的逃税记录。布兰德声称这是餐厅的“交互式戏剧项目”，要求大家冷静。但当晚宴进行到主菜时，秘密开…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="相残" data-region="日本" data-type="电影" data-genre="悬疑 / 惊悚" data-tags="人性拷问, 孤岛求生, 全员恶人" data-year="2022" data-score="2084.9103333333333">
+        <div class="rank-num">59</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0848.html">相残</a></h3>
+          <p>心理实验惊悚片。十名有暴力前科的男女被空投到无人岛，参加所谓的“重生计划”。首日，前检察官被发现死于篝火旁。众人恐慌，但监控显示当晚无人接近。次日，死者的尸体消失了，而原本懦弱的网红突然暴起杀人。幸存者逐渐发现恐怖真相：每到午夜，他们内心最阴暗的人格会实体化，成为独立的“黑影”互相残杀。而本体必须亲手杀死另一个自己的…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">日本</span>
+            <span class="tag">电影</span>
+            <span class="tag">2022</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="致命一夜情" data-region="美国" data-type="电影" data-genre="惊悚、犯罪、悬疑" data-tags="陷阱、反转、社交软件、心理博弈" data-year="2026" data-score="2084.8116666666665">
+        <div class="rank-num">60</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1244.html">致命一夜情</a></h3>
+          <p>刚离婚的插画师克莱尔通过高端约会软件匹配到建筑师伊森，对方温柔体贴、无懈可击。一夜激情后，克莱尔醒来发现伊森倒在客厅血泊中，颈部动脉被割开。她惊慌中准备报警，却收到一条匿名短信：“你杀了他。但我会帮你。”紧接着，手机被远程操控，室内监控录像显示“克莱尔持刀行凶”的清晰画面。她被迫按照神秘人的指令清理现场、伪造不在场证…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2026</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="玩命关头：特别行动" data-region="美国" data-type="电影" data-genre="动作 / 犯罪 / 冒险" data-tags="飙车，特工，硬汉，高科技，全球追捕" data-year="2025" data-score="2084.643666666667">
+        <div class="rank-num">61</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0817.html">玩命关头：特别行动</a></h3>
+          <p>前 MI6 特工肖恩接到任务：恐怖分子窃取了一枚小型核弹，计划在迪拜塔引爆。肖恩不得不与曾经的黑客死敌、“幽灵”露娜组队。露娜黑入系统发现，核弹藏在开罗的一辆油罐车里。两人抢了一辆废弃巴士，改装成时速 200 公里的移动堡垒。在沙尘暴中，肖恩用巴士做掩护，露娜远程解除引爆代码。最后关头，肖恩驾驶巴士撞向直升机，用导弹…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="尴尬情人" data-region="中国大陆" data-type="电影" data-genre="爱情喜剧" data-tags="身份错位, 假戏真做, 黑色幽默" data-year="2024" data-score="2084.6023333333333">
+        <div class="rank-num">62</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1868.html">尴尬情人</a></h3>
+          <p>大龄单身青年林楠和职场宿敌苏雅被双方父母“设计”在同一张相亲桌上。为了不让父母失望，两人咬牙签下“临时情侣协议”。然而，苏雅无意间捡到的U盘里藏着洗钱组织的账本。随后，两人在假装甜蜜、互相拆台的过程中，不仅要应付随时查岗的长辈，还要躲避一群寻找U盘的黑衣人。从高档餐厅的混乱打斗到乡下老家的离奇追车，这对假情侣在生死边…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">中国大陆</span>
+            <span class="tag">电影</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="双倍德哈玛" data-region="美国" data-type="电影" data-genre="悬疑， 惊悚" data-tags="双重身份， 邪教， 荒漠， 心理操控" data-year="2022" data-score="2084.569">
+        <div class="rank-num">63</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0257.html">双倍德哈玛</a></h3>
+          <p>记者萨姆为了寻找失踪的线人，来到荒芜的边陲小镇“德哈玛”。镇上有一对诡异的双胞胎姐妹，她们都叫“德哈玛”，共享同一种记忆、疼痛与思想，仿佛一个灵魂分成两具躯体。萨姆逐渐发现，小镇隐藏着一个信奉“双重肉身”的原始邪教，所有失踪者都是被选为“第三德哈玛”的祭品。当她越接近真相，自己也开始出现分身幻觉，分不清哪一个才是真实…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2022</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="铁血战士：猎物" data-region="美国" data-type="电影" data-genre="科幻, 动作, 惊悚" data-tags="外星猎杀, 硬核动作, 丛林" data-year="2025" data-score="2084.5183333333334">
+        <div class="rank-num">64</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0336.html">铁血战士：猎物</a></h3>
+          <p>1719年，北美大平原。科曼奇部落的女猎人纳鲁被族人嘲笑只配做采集者。为证明价值，她独自深入禁忌森林追踪一头伤人的灰熊，却发现灰熊被一个更恐怖的生物剥了皮。那是一个身高八尺、装备高科技武器的外星猎人。纳鲁目睹整个狩猎队被屠杀，她利用对地形的熟悉、原始的陷阱和野兽的直觉，从猎物转变为猎人。她必须抢在外星战士开启自毁程序…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="音乐盒" data-region="美国" data-type="电影" data-genre="悬疑, 惊悚" data-tags="遗物, 诅咒, 旋律" data-year="2022" data-score="2084.354666666667">
+        <div class="rank-num">65</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1521.html">音乐盒</a></h3>
+          <p>艾米莉在整理祖母阁楼时，发现了一个精美的19世纪音乐盒。打开后，优美的旋律让她瞬间着迷，但当晚她的室友便意外身亡。警方判定为事故，艾米莉却发现音乐盒的旋律与每一桩死亡事件都精准对应。她试图摧毁它，但音乐盒坚不可摧，甚至开始自动播放。随着旋律在脑海中挥之不去，艾米莉意识到自己可能是下一个目标，更是旋律传递诅咒的最终容器…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2022</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="玩命特区" data-region="法国" data-type="电影" data-genre="动作， 科幻， 犯罪" data-tags="跑酷， 近未来， 贫民窟， 暴力街区， 反乌托邦" data-year="2024" data-score="2084.2216666666664">
+        <div class="rank-num">66</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0539.html">玩命特区</a></h3>
+          <p>2030年，马赛因经济衰退将北部的工业港口划为自治“特区”，这里成了罪犯与难民的乐园。特工队长莱奥奉命潜入特区寻找失窃的“钴-60”脏弹。他发现自己的老对手、跑酷大师“猎鹰”也加入了争夺。脏弹被装在自动驾驶货车里，将在24小时后引爆。莱奥和猎鹰在特区的钢筋水泥丛林里展开了一场垂直与水平的追逐战。他们穿越废弃工厂、集装…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">法国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="该隐的末裔" data-region="韩国" data-type="剧集" data-genre="悬疑 / 惊悚 / 犯罪" data-tags="邪教, 基因编辑, 连环杀手, 黑暗人性, 反转" data-year="2025" data-score="2084.178">
+        <div class="rank-num">67</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0520.html">该隐的末裔</a></h3>
+          <p>首尔陷入前所未有的恐慌，连环杀人案受害者身上都刻有神秘的“C”字标记，但最令人毛骨悚然的是，凶手的面部特征完全相同，仿佛批量生产的“人类”。国情院特工韩智浩追查发现，这些凶手均指向二十年前某深山教堂中被指控为该隐后裔的孤儿们。当时的“圣血教会”曾秘密进行胚胎基因编辑实验，试图复制“完美人类”。随着调查深入，韩智浩发现…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">韩国</span>
+            <span class="tag">剧集</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="恐惧的马戏团" data-region="西班牙" data-type="电影" data-genre="恐怖，悬疑" data-tags="马戏团，小丑，幻觉，童年阴影" data-year="2021" data-score="2084.153333333333">
+        <div class="rank-num">68</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1790.html">恐惧的马戏团</a></h3>
+          <p>心理医生安娜接到一个诡异病例：小镇上多人声称看到一座废弃马戏团重新开张，并且每晚都有演出。安娜调查发现，三十年前该马戏团在一个雨夜全员失踪，只有小丑“笑脸叔叔”的尸体被发现在帐篷中央。她决定亲自进入马戏团，发现里面每个帐篷都对应着一种童年恐惧：黑暗、密闭空间、巨大的响声、被遗弃。当她走到主帐篷时，看到台上表演的不是动…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">西班牙</span>
+            <span class="tag">电影</span>
+            <span class="tag">2021</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="第八夜" data-region="韩国" data-type="电影" data-genre="悬疑 / 惊悚" data-tags="邪教, 封印, 反转, 宗教恐怖, 献祭" data-year="2021" data-score="2084.068333333333">
+        <div class="rank-num">69</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0053.html">第八夜</a></h3>
+          <p>传说每八百年一次的“第八夜”，冥界与人间边界会变得模糊。古籍管理员姜振宇无意中解开了封印恶鬼的七件法器之一，导致封印以肉眼可见的速度崩坏。一名曾经失败过的退魔师找上门，告诉他必须在第八夜到来之前重新集齐法器并完成封印，否则恶鬼将吞噬所有灵魂。在追踪法器散落之处的过程中，姜振宇发现这一切似乎与八年前家人的离奇死亡有着千…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">韩国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2021</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="蛇之道" data-region="日本" data-type="电影" data-genre="悬疑, 犯罪" data-tags="复仇, 法外执法, 蛇蝎美人, 反转" data-year="2025" data-score="2083.8783333333336">
+        <div class="rank-num">70</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0159.html">蛇之道</a></h3>
+          <p>中学教师田中的妻子在家中遭毒杀，警方以自杀结案。一年后，他收到匿名邮件：“你妻子是被杀的，凶手是X，走蛇之道才能复仇。”他开始跟踪X——一个表面成功的商人。在复仇过程中，他遇到自称私家侦探的女人由美。两人联手设局让X身败名裂。当田中将匕首刺入X胸膛时，由美突然笑道：“谢谢你帮我杀了老公。对了，你妻子是我下毒的，她勾引…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">日本</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="诺米斯" data-region="美国" data-type="剧集" data-genre="科幻, 惊悚" data-tags="AI, 身份认同, 反乌托邦, 悬疑" data-year="2024" data-score="2083.874666666667">
+        <div class="rank-num">71</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1698.html">诺米斯</a></h3>
+          <p>在未来的集权社会里，人类被剥夺姓名，仅以“诺米斯”编号区分。主角诺米斯-7是一位严厉的税务审计员，专门追查使用非法曾用名的“怀旧分子”。在一次追捕中，他的手臂受伤，伤口下露出的不是血肉，而是电路板。随着意识逐渐模糊，他发现自己身处一个废弃的AI服务器机房——原来整个社会都是AI为了理解“人类情感漏洞”而运行的模拟程序…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">剧集</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="旧爱灵灵妻" data-region="中国台湾" data-type="电视剧" data-genre="爱情 / 奇幻 / 喜剧" data-tags="灵异，破镜重圆，都市怪谈，治愈" data-year="2024" data-score="2083.4686666666666">
+        <div class="rank-num">72</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0255.html">旧爱灵灵妻</a></h3>
+          <p>晓芬天生拥有阴阳眼，只能给死人做“冥婚”主持。好不容易遇到一个不怕鬼的真命天子阿豪，婚礼当天，她不小心用祖传的符咒把阿豪三年前溺亡的前妻“小真”的灵魂给召唤了出来。小真死活不肯回去，声称阿豪欠她一句“我爱你”。于是，三人开始了荒诞的同居生活：白天晓芬和阿豪秀恩爱，晚上小真就出来捣乱。但晓芬渐渐发现，小真的怨恨并非因为…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">中国台湾</span>
+            <span class="tag">电视剧</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="流人第二季" data-region="英国" data-type="剧集" data-genre="剧情 / 惊悚 / 间谍" data-tags="军情五处, 废材特工, 悬疑, 暗黑幽默, 政治阴谋" data-year="2023" data-score="2083.421">
+        <div class="rank-num">73</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0733.html">流人第二季</a></h3>
+          <p>第二季中，兰姆带领的“废材小队”接到一桩看似简单的失踪案：一名国防部文员下班后没回家。但随着调查深入，他们发现此人曾接触过绝密的“晨鸟计划”——一种能定向释放的神经毒剂。与此同时，莫斯科方面一名叛逃特工声称掌握英国高层内鬼名单，要求从“斯劳屋”交接。河流·卡特莱特被派去接人，却遭伏击，叛逃者被杀，只留下一串密码。团队…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">英国</span>
+            <span class="tag">剧集</span>
+            <span class="tag">2023</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="深夜前的五分钟" data-region="日本" data-type="电影" data-genre="悬疑 / 爱情" data-tags="时间循环, 心理惊悚, 钟表意象, 未竟遗憾" data-year="2025" data-score="2083.3709999999996">
+        <div class="rank-num">74</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0186.html">深夜前的五分钟</a></h3>
+          <p>杂志编辑若蓝发现自己困在未婚夫遇害当天的最后五分钟里。无论她如何尝试改变细节——报警、改路线、甚至不出门——时间都会在第五分钟重置，且未婚夫必死。第五十次循环时，她发现杀死未婚夫的不是意外，而是另一个“自己”。为了打破循环，她必须在深睡前五分钟内，找到那个来自平行时空的替代者，并在时间重置前杀死对方。最终她刺向了另一…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">日本</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="黑车玄疑" data-region="中国大陆" data-type="电影" data-genre="悬疑, 犯罪, 惊悚" data-tags="网约车, 密闭空间, 心理战" data-year="2024" data-score="2083.337666666667">
+        <div class="rank-num">75</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0698.html">黑车玄疑</a></h3>
+          <p>白领苏晴深夜加班，叫了一辆黑色轿车。司机全程不说话，车内导航显示的路线与她记忆中的完全不同。更诡异的是，车窗外的街景似曾相识，但所有路牌、店名都变成了镜像反转。苏晴惊恐地发现，她无法用手机联系任何人，支付软件显示余额为零。车子最终停在她“家”楼下，但那个“家”里住着一个和她长得一模一样的女人，而那个女人叫她“姐姐”。…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">中国大陆</span>
+            <span class="tag">电影</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="海军夫人" data-region="美国" data-type="剧集" data-genre="剧情 / 悬疑" data-tags="军嫂，社区秘密，女性群像，心理惊悚，多线叙事" data-year="2025" data-score="2083.06">
+        <div class="rank-num">76</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0441.html">海军夫人</a></h3>
+          <p>在美国弗吉尼亚州诺福克海军基地，丈夫常年出海，军嫂们构建了严格而封闭的社交圈。主角艾莉丝跟随新任核潜艇舰长丈夫搬入小镇，却发现前一任舰长夫人“意外”溺水身亡。社区里所有人都讳莫如深。艾莉丝联合三位同样被排斥的军嫂——一个黑人军需官的妻子、一个被家暴的士官妻子、以及一个暗中为FBI工作的“叛徒”妻子——组成了一个秘密的…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">剧集</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="电话情杀案" data-region="美国" data-type="电影" data-genre="悬疑 / 惊悚 / 犯罪" data-tags="高智商犯罪，录音，反转，密室" data-year="2024" data-score="2083.0483333333336">
+        <div class="rank-num">77</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0665.html">电话情杀案</a></h3>
+          <p>控制欲极强的富商诺曼发现妻子与穷画家有染，他没有揭穿，而是精心策划：拨通画家公寓的公用电话，引诱妻子过去，再雇凶伪装成抢劫杀人。然而计划第一步就出了差错——接电话的不是画家，而是一个刚刚在里面杀完人的变态杀手。杀手误以为诺曼是同道中人，竟主动提出“买一送一”：帮诺曼杀妻子，条件是诺曼必须帮他处理掉先前的尸体。诺曼陷入…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="我们妈妈的房子" data-region="西班牙" data-type="电影" data-genre="悬疑、惊悚、剧情" data-tags="遗产阴谋，家庭惊悚，阿兹海默症，多层反转" data-year="2025" data-score="2082.987">
+        <div class="rank-num">78</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0003.html">我们妈妈的房子</a></h3>
+          <p>母亲艾琳娜因阿兹海默症去世，留下遗嘱要求所有子女必须一起在老宅住满七天，才能分配遗产。四兄妹带着各自的伴侣和孩子回到这栋充满童年回忆的海边大宅。第一天晚上，他们在母亲的遗物中发现了一本加密的日记。日记里，母亲用清晰得可怕的笔触，记录下了每个孩子深埋的秘密：大哥的婚外情、二姐曾经的车祸肇事逃逸、三弟的金融诈骗，以及小妹…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">西班牙</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="行过死荫之地" data-region="美国" data-type="电影" data-genre="悬疑 / 犯罪 / 惊悚" data-tags="连环杀手，宗教符号，冷硬派侦探" data-year="2025" data-score="2082.964">
+        <div class="rank-num">79</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0921.html">行过死荫之地</a></h3>
+          <p>底特律，经济萧条后的废墟地带。连续七名流浪汉被杀害，尸体均被摆成十字架形状，胸口刻有《诗篇》第23篇的希伯来文。警方束手无策，前神父、现私家侦探麦克·凯利受受害者家属委托介入调查。麦克曾在神学院主修符号学，因女儿意外身亡而背弃上帝。他深入城市下水道和废弃教堂，发现杀手并非一人，而是一个崇拜“净化仪式”的邪教组织，成员…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="阴阳路" data-region="香港" data-type="电影" data-genre="恐怖, 悬疑" data-tags="出租车, 灵异, 单元, 都市传说" data-year="2026" data-score="2082.89">
+        <div class="rank-num">80</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0029.html">阴阳路</a></h3>
+          <p>退役刑警阿威开夜班出租谋生，每晚都会遇到奇怪的乘客：一位老太太让他开到早已拆迁的祖屋，下车时留了一枚民国铜钱；一名西装男要求去殡仪馆，路上一直对着空座椅说“对不起”；还有一个女孩上车就哭，说自己刚被谋杀，希望阿威带她去见最后一面。阿威逐渐发现，这辆车曾在三年前一桩肇事逃逸案中被报废，而当时的司机正是他自己——那次事故…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">香港</span>
+            <span class="tag">电影</span>
+            <span class="tag">2026</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="温柔之歌" data-region="法国" data-type="电影" data-genre="剧情，惊悚，悬疑" data-tags="保姆，阶级对立，女性心理，压抑" data-year="2019" data-score="2082.7653333333333">
+        <div class="rank-num">81</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1689.html">温柔之歌</a></h3>
+          <p>中产阶级夫妇保罗和米莉亚姆迎来了第二个孩子，他们雇佣了看似完美的保姆路易丝。路易丝勤快、爱孩子，甚至包揽了所有家务。但随着时间的推移，路易丝的控制欲开始显露。她嫉妒母亲与孩子的亲近，甚至将自己代入“母亲”的角色。在一次冲突后，感到被背叛的路易丝，在浴室里用温柔的动作结束了两个小生命的呼吸。影片倒叙开始，讲述这个普通家…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">法国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2019</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="全知干预视角" data-region="韩国" data-type="剧集" data-genre="悬疑 / 科幻" data-tags="监控, 政府阴谋, 数据, 反抗, 惊悚" data-year="2023" data-score="2082.662333333333">
+        <div class="rank-num">82</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0521.html">全知干预视角</a></h3>
+          <p>首尔市政府开发了一套名为“全知”的AI监控系统，可以预测公民的犯罪行为。程序员秀敏被植入芯片，获得了全知视角：她能同时看到所有人的未来15秒画面。但系统背后的真相是：政府用这套系统清除异己。秀敏发现自己已经被标记为“清除对象”，未来15秒内必死。她不断突破预测，每一秒都在改写自己的死亡，最终黑入系统向全韩公民直播了真…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">韩国</span>
+            <span class="tag">剧集</span>
+            <span class="tag">2023</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="沙滩上的夏娃" data-region="法国" data-type="电影" data-genre="剧情、悬疑、爱情" data-tags="孤岛、记忆拼图、心理惊悚、女性视角" data-year="2018" data-score="2082.567666666667">
+        <div class="rank-num">83</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0450.html">沙滩上的夏娃</a></h3>
+          <p>一名失去记忆的女子在孤岛沙滩上苏醒，身旁只有一具身穿西装的男尸以及一本红色日记。日记里以“夏娃”自称，记录了一段充满控制与反抗的禁忌之恋。随着她翻阅日记，破碎的记忆开始闪回：豪华游艇、海难、以及这个男人——到底是爱人还是囚禁者？岛上的食物与淡水被人为补充，显然有人在监视她。当她利用镜子反射发出求救信号时，却从救援者的…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">法国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2018</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="绝命塔罗牌" data-region="中国台湾" data-type="电影" data-genre="恐怖, 悬疑, 惊悚" data-tags="塔罗牌, 诅咒, 密室, 占卜, 死亡顺序" data-year="2019" data-score="2082.404">
+        <div class="rank-num">84</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0611.html">绝命塔罗牌</a></h3>
+          <p>网红塔罗师小爱去世前，寄出了六副手绘塔罗牌给曾经的黑粉。阿杰、学姐、游戏主播、护士、流浪画家、自闭少年各自收到牌。阿杰抽到“倒吊人”，第二天就被发现吊死在健身房；学姐抽到“高塔”，从自家公寓坠落。剩下四人聚在一间废弃占卜屋，发现小爱的笔记本上写着“死亡顺序即抽牌顺序”。他们尝试烧牌、埋牌均无效。第四个死的是护士，“死…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">中国台湾</span>
+            <span class="tag">电影</span>
+            <span class="tag">2019</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="女人告白时" data-region="韩国" data-type="电影" data-genre="悬疑, 剧情, 惊悚" data-tags="密室, 闺蜜, 反转, 复仇, 录音笔" data-year="2025" data-score="2082.3863333333334">
+        <div class="rank-num">85</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0246.html">女人告白时</a></h3>
+          <p>四个相识二十年的闺蜜在深山别墅聚会。深夜，当她们喝醉后，一支属于失踪者“俊浩”的录音笔被发现。里面的录音揭露，每个人都说自己在那晚杀死了俊浩。女一（医生）说他用药剂致死；女二（律师）说她用钝器击打；女三（家庭主妇）说她用绳索勒颈；女四（网红）说她用刀刺入。四个人面面相觑，惊恐地发现其中有三个在说谎，或者——俊浩确实被…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">韩国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="人肉机器" data-region="日本" data-type="电影" data-genre="科幻 / 恐怖 / 惊悚" data-tags="人体改造， 赛博朋克， 血腥暴力， 反乌托邦， 意识移植" data-year="2022" data-score="2082.383">
+        <div class="rank-num">86</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0378.html">人肉机器</a></h3>
+          <p>近未来，日本。天才程序员兼机器人工程师Kenji罹患绝症。他不愿死去，秘密将自己的全部意识上传到一块可植入大脑的生物芯片中，并移植到一具强化的机械躯体上。他获得永生、力量和超强算力。但他很快发现身体会收到莫名的指令，让他在睡梦中做出他清醒时绝不会做的事——杀人、盗窃、入侵政府网络。Kenji追踪指令源头，发现那是一个…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">日本</span>
+            <span class="tag">电影</span>
+            <span class="tag">2022</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="僵尸大暴动" data-region="韩国" data-type="电影" data-genre="动作 / 惊悚 / 恐怖" data-tags="丧尸, 朝鲜王朝, 冷兵器" data-year="2025" data-score="2082.340666666667">
+        <div class="rank-num">87</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1459.html">僵尸大暴动</a></h3>
+          <p>壬辰倭乱之后，朝鲜南部村庄爆发诡异疫病：死人复活，但不再疯狂咬人，而是保留生前的仇恨与组织力。这群“清醒僵尸”在曾经的将领尸首带领下，攻击两班贵族粮仓，并喊出“我们曾是人”的口号。朝廷派来的捕盗大将李诚佑发现，瘟疫源头竟是官府秘密试验的“还魂草”。为了平息暴动，他被迫与僵尸首领谈判，答应揭露官场阴谋。在决战中，一部分…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">韩国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="夺命大鳄鱼2" data-region="澳大利亚" data-type="电影" data-genre="恐怖，惊悚，动作" data-tags="巨兽，荒岛求生，基因突变" data-year="2024" data-score="2082.34">
+        <div class="rank-num">88</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1486.html">夺命大鳄鱼2</a></h3>
+          <p>上一集死里逃生的鳄鱼猎人文斯，如今成了名人，出了书还做了巡回演讲。但他一直有个心结：当年那条巨型鳄鱼“布鲁图斯”的尸体并未找到。一家生物科技公司邀请他担任顾问，前往鳄鱼出没的荒岛，实则想秘密提取布鲁图斯的基因。上岛后他们发现，布鲁图斯不仅没死，体型还大了一倍，并且它身边多了几头继承了它凶残与智商的变异鳄鱼后代。这群鳄…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">澳大利亚</span>
+            <span class="tag">电影</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="黄金鸟" data-region="西班牙" data-type="电影" data-genre="惊悚" data-tags="艺术品, 诈骗, 家族秘密, 悬疑, 反转" data-year="2023" data-score="2082.29">
+        <div class="rank-num">89</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0675.html">黄金鸟</a></h3>
+          <p>落魄的艺术鉴定师丹尼尔受邀鉴定一幅失踪了六十年的名画《黄金鸟》。当他用X光扫描时，发现画布下面还有另一幅画，画着一个倒在血泊中的女人，身边站着一个拿着鸟笼的小女孩。丹尼尔顺藤摸瓜，发现这幅画的拥有者是西班牙最富有的收藏家族阿尔巴家族。而画中那个小女孩，就是如今九十多岁的家族女掌门卡门。他走访了当年的知情者，拼凑出可怕…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">西班牙</span>
+            <span class="tag">电影</span>
+            <span class="tag">2023</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="案中案" data-region="美国" data-type="电视剧" data-genre="悬疑 / 犯罪 / 律政" data-tags="法庭, 多层反转, 冤案, 复仇" data-year="2023" data-score="2082.249">
+        <div class="rank-num">90</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1040.html">案中案</a></h3>
+          <p>金牌女律师艾娃接手了一起死刑上诉案，当事人黑人青年杰森被控在二十年前奸杀了一名白人少女。所有证据确凿，杰森即将被执行注射死刑。艾娃在翻阅当年的庭审记录时发现一个细节：负责此案的检察官、如今已是高等法院法官的曼森，当年曾与被害者父亲有过秘密通话。艾娃深入调查，发现曼森当年为了竞选地区检察官，伪造了DNA证据。更惊人的是…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电视剧</span>
+            <span class="tag">2023</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="隔窗恋爱：看着你" data-region="西班牙" data-type="电影" data-genre="爱情 / 惊悚" data-tags="偷窥, 邻居, 病娇, 禁忌" data-year="2025" data-score="2081.9976666666666">
+        <div class="rank-num">91</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1774.html">隔窗恋爱：看着你</a></h3>
+          <p>暗恋隔壁男孩阿莱克斯的克拉拉，每天最大的乐趣就是躲在窗帘后偷看他的一举一动。她渐渐注意到一个规律：每晚十一点，阿莱克斯会准时站在窗前，凝视着某个方向，脸上露出痴迷而病态的微笑。克拉拉循着视线望去，发现那是一个从未拉过窗帘的女孩卧室。出于嫉妒与好奇，她开始调查那个女孩，却惊恐地发现——那个女孩三年前就已经失踪了。更恐怖…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">西班牙</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="复仇记" data-region="韩国" data-type="电影" data-genre="悬疑、犯罪、惊悚" data-tags="高智商复仇、层层套娃、全员恶人、结局反转" data-year="2022" data-score="2081.917">
+        <div class="rank-num">92</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1889.html">复仇记</a></h3>
+          <p>高中时期，素熙被校花妍秀为首的四人组污蔑偷窃，后被脱衣拍照视频传遍全校。素熙退学，母亲气病去世。二十年后，素熙化名“宋知元”成为顶尖公关顾问。她故意接近妍秀——现在已是国会议员的妻子、当红育儿博主。素熙先匿名爆料妍秀曾霸凌同学，再假装是粉丝帮她洗白，取得信任后，她一步步诱导妍秀对其他三个当年的同伙下手。她让A破产，让…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">韩国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2022</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="罪恶黑名单第六季" data-region="美国" data-type="剧集" data-genre="剧情 / 犯罪 / 悬疑" data-tags="高智商犯罪, 卧底, 连环反转" data-year="2021" data-score="2081.762666666667">
+        <div class="rank-num">93</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0424.html">罪恶黑名单第六季</a></h3>
+          <p>第六季开篇，红魔雷蒙德被关押进最高级别监狱。他表面接受审判，实则暗中利用新黑名单上的六名神秘罪犯，逐步瓦解一个操控全球政经的深层组织“墓园”。本季中，莉兹必须在外勤行动中与一名双面卧底合作，而这位卧底恰恰是红魔黑名单上的头号目标。随着“墓园”的真相浮出水面，红魔发现自己年轻时的伙伴竟是幕后黑手之一。狱中、法庭、街头三…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">剧集</span>
+            <span class="tag">2021</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="生而被杀" data-region="韩国" data-type="电影" data-genre="悬疑、惊悚、犯罪" data-tags="轮回、记忆、警匪、反转" data-year="2022" data-score="2081.588666666667">
+        <div class="rank-num">94</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0655.html">生而被杀</a></h3>
+          <p>警探李正洙醒来发现自己躺在血泊中，意识模糊前看到凶手逃离。下一秒他再次醒来，同样地点同样时间，身边围绕着同样的同事。他意识到自己陷入了一天被杀一次的死亡循环。每次死亡都会保留部分记忆，李正洙开始利用无限的生命去排查身边的每一个人：搭档、前妻、甚至法医。在无数次惨死中，他发现这起看似随机的谋杀背后牵扯到三年前一桩未破的…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">韩国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2022</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="嗅探员" data-region="中国大陆" data-type="电影" data-genre="犯罪 / 悬疑 / 动作" data-tags="嗅觉天才，刑侦，连环凶案，警匪对峙，感官超能" data-year="2026" data-score="2081.4489999999996">
+        <div class="rank-num">95</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1676.html">嗅探员</a></h3>
+          <p>主角陈默天生嗅觉超常，能分辨出数万种气味，却因性格孤僻从警校退学，靠帮人找猫找狗为生。一桩连环杀人案让警方束手无策，嗅觉同样灵敏的神探老周意外发现陈默的能力，力排众议让他以“嗅探员”的身份协助破案。陈默通过死者衣物上残留的微弱气味，成功锁定了凶手经常出没的区域。然而，凶手似乎也有反嗅探的能力，总能提前一步毁灭证据。一…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">中国大陆</span>
+            <span class="tag">电影</span>
+            <span class="tag">2026</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="贝蕾妮丝" data-region="法国" data-type="电影" data-genre="爱情恐怖" data-tags="爱伦·坡改编, 哥特, 病态美学, 拔牙" data-year="2024" data-score="2081.3733333333334">
+        <div class="rank-num">96</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0031.html">贝蕾妮丝</a></h3>
+          <p>改编自爱伦·坡的恐怖短篇。贵族青年埃涅阿斯疯狂迷恋表妹贝蕾妮丝，尤其是她那洁白无瑕的牙齿。当贝蕾妮丝患上神秘的消耗性疾病，身体与容貌日渐朽坏，埃涅阿斯的爱意也随之扭曲。他不再看她整个人，而是只盯着那口依然美丽的牙齿，产生了一种病态的占有欲。在一个雷雨夜，他拿着牙科工具潜入表妹的房间。次日清晨，仆人们发现贝蕾妮丝在棺中…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">法国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="赤月湖吸血鬼" data-region="中国大陆" data-type="电影" data-genre="悬疑 / 惊悚" data-tags="民俗恐怖, 湖区传说, 双时间线, 探案" data-year="2026" data-score="2081.3613333333333">
+        <div class="rank-num">97</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1156.html">赤月湖吸血鬼</a></h3>
+          <p>法医林浅的恋人在赤月湖溺水身亡，尸体三日后神秘失踪。五年后，赤月再次照亮湖面，湖边小镇接连发生村民被抽干血液的命案。林浅重返故地，在旧警长女儿的帮助下，发现每起案件都与一本百年前的家族日记有关。日记记载，赤月湖底封印着一个被诅咒的吸血鬼氏族，而林浅体内流淌着氏族最后继承人的血液。面对村民的恐惧和自身的异变，她必须在下…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">中国大陆</span>
+            <span class="tag">电影</span>
+            <span class="tag">2026</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="失孩记" data-region="澳大利亚" data-type="电影" data-genre="悬疑 / 惊悚 / 剧情" data-tags="儿童失踪, 小镇秘密, 母亲寻子, 全员恶人, 心理创伤" data-year="2028" data-score="2081.36">
+        <div class="rank-num">98</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0856.html">失孩记</a></h3>
+          <p>单亲妈妈克莱尔带着六岁女儿艾米丽在超市购物，一转身，女儿消失在人海中。警方调查毫无进展，小镇居民态度冷淡。克莱尔自行调查时，发现监控录像被人为删除，目击证人的证词前后矛盾。更诡异的是，她家中所有艾米丽的照片都在慢慢变淡，就像这个孩子从未存在过。心理医生告诉她，艾米丽是她在上一个孩子夭折后幻想出来的人格。但克莱尔在自家…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">澳大利亚</span>
+            <span class="tag">电影</span>
+            <span class="tag">2028</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="罪人回忆录" data-region="西班牙" data-type="剧集" data-genre="悬疑 / 恐怖 / 惊悚" data-tags="记忆提取, 连环杀手, 道德实验, 高概念" data-year="2025" data-score="2081.177">
+        <div class="rank-num">99</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1687.html">罪人回忆录</a></h3>
+          <p>1992年至2022年，西班牙发生了一系列“忏悔者谋杀案”，凶手每次都会在尸体旁留下一封忏悔信，但信的内容是在向上帝忏悔别人的罪行。30年来，57名女性遇害，真凶逍遥法外。当最后一个知情人——疑似共犯的老画家马科斯在监狱濒死，警局批准使用还在实验阶段的“记忆回溯仪”，进入他的大脑寻找真相。年轻女警艾琳娜作为“体验者”…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">西班牙</span>
+            <span class="tag">剧集</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="梦塔·雪谜城" data-region="中国大陆" data-type="动画剧集" data-genre="动作 / 悬疑 / 奇幻" data-tags="梦境，塔罗牌，解谜，异能战斗" data-year="2024" data-score="2081.09">
+        <div class="rank-num">100</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1517.html">梦塔·雪谜城</a></h3>
+          <p>在常年不落雪的海城，市中心矗立着一座半透明的水晶塔“雪谜城”，传说它是由无数人的梦境凝结而成。保安队长林凌只是个普通人，唯一的特长是从来不做梦。某夜，一名少女从塔顶坠落在他面前，临死前递给他一张塔罗牌“隐者”。从那以后，林凌开始被迫“侵入”别人的噩梦，在梦里他无所不能。他在噩梦中发现了连环杀手的心理阴影，也找到了失踪…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">中国大陆</span>
+            <span class="tag">动画剧集</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="赌博默示录：最终游戏" data-region="日本" data-type="电影" data-genre="剧情, 悬疑, 犯罪" data-tags="赌博, 人性, 心理战, 绝地求生" data-year="2020" data-score="2081.017">
+        <div class="rank-num">101</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0250.html">赌博默示录：最终游戏</a></h3>
+          <p>在还清旧债后，伊藤开司本想过平凡日子，却因替朋友担保再次被黑社会盯上。他被引入一个神秘的高层赌场，参与一场名为“最终游戏”的赌局，奖金高达100亿日元。游戏是在一列无人驾驶的环形地铁上进行，名叫“皇帝牌”。每位玩家发三张牌，其中一张是“皇帝”，可以击败任何牌，但皇帝只有一张。每位玩家需在下车前三分钟下注，而列车全程只…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">日本</span>
+            <span class="tag">电影</span>
+            <span class="tag">2020</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="甜蜜池畔" data-region="泰国" data-type="剧集" data-genre="爱情 / 悬疑 / 剧情" data-tags="禁忌之恋, 豪门恩怨, 复仇, 池畔激情, 反转" data-year="2024" data-score="2080.973">
+        <div class="rank-num">102</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1324.html">甜蜜池畔</a></h3>
+          <p>豪门继承人纳坤的尸体漂浮在自家别墅的游泳池中，表面看是酒后失足，但女警官萍透露过多处疑点。随着调查深入，萍发现纳坤生前是一个极富魅力的操控者，他与住在宅邸中的三位女人有着错综复杂的关系：新婚妻子、前女友、以及看似温婉的继母。每一个女人都声称与他有过一段“甜蜜池畔”的时光，但每个人都有置他于死地的动机。萍通过审讯与回忆…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">泰国</span>
+            <span class="tag">剧集</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="逍遥法外班克斯" data-region="英国" data-type="电影" data-genre="犯罪, 惊悚" data-tags="艺术犯罪, 悬疑, 反转, 女性主角" data-year="2022" data-score="2080.838333333333">
+        <div class="rank-num">103</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1842.html">逍遥法外班克斯</a></h3>
+          <p>伦敦一夜之间七家顶级博物馆同时失窃，丢失的全是镇馆之宝。盗贼没有留下任何指纹，只在墙上留下标志性的老鼠涂鸦——这是班克斯的手笔。警探艾拉被调来破案，却发现自己是班克斯的前女友。随着调查深入，她发现这些画作都被替换成了赝品，而真正的画作出现在世界各地的贫民窟墙壁上。班克斯的目的不是偷窃，而是揭露博物馆背后的黑市交易。艾…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">英国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2022</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="各怀鬼胎" data-region="中国香港" data-type="电影" data-genre="犯罪 / 悬疑" data-tags="密室, 全员恶人, 黑吃黑, 多重反转" data-year="2025" data-score="2080.721">
+        <div class="rank-num">104</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0362.html">各怀鬼胎</a></h3>
+          <p>香港，一亿美金劫案成功。五名悍匪——头目“鬼王”、爆破手“肥仔”、车手“眼镜”、枪手“哑狗”、内应“小姐”——躲进废弃冷冻仓库等待天亮后分钱。仓库门突然从外被锁死，温度开始降至零下。门上留条：“两亿美金，只有一人能活到明早六点。”五人各怀鬼胎，开始互相试探、结盟、背叛。观众从不断闪回中得知：每个人都在劫案前后做了只有…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">中国香港</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="不择手段" data-region="韩国" data-type="电影" data-genre="犯罪 / 动作 / 惊悚" data-tags="黑吃黑， 律师腐败， 复仇爽片， 拳拳到肉， 反转再反转" data-year="2026" data-score="2080.702333333333">
+        <div class="rank-num">105</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0762.html">不择手段</a></h3>
+          <p>前律师张泰洙因伪造证据被吊销执照，沦为三流催债人。某天女儿被神秘组织绑架，对方要求他在72小时内从“九老监狱”——一座法外之地的地下私牢中救出一个人。张泰洙故意犯罪进入其中，发现监狱由三大帮派控制，狱警形同虚设。他挑起帮派火并，利用法律漏洞在狱内制造“合法战斗区域”，并以一敌十杀出一条血路。但当他救出目标人物时，对方…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">韩国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2026</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="无主之人" data-region="美国" data-type="电影" data-genre="科幻, 惊悚, 悬疑" data-tags="克隆, 身份认同, 末日, 地下室, 反转" data-year="2025" data-score="2080.486">
+        <div class="rank-num">106</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1956.html">无主之人</a></h3>
+          <p>核战后的荒原上，编号为071的地下掩体自动开启。六个长相、记忆完全相同的男人“马克”同时苏醒。每个人都坚信自己是本体，其余五个是备用克隆体。掩体AI告知：物资仅够一人存活，最后活着出去的才是真马克。血腥的自相残杀似乎不可避免。但其中一位马克发现了异常——所有人的记忆都终止于同一天，而那天本该是他杀死“前一个自己”的日…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="恐怖游泳馆" data-region="中国大陆" data-type="电影" data-genre="惊悚 / 悬疑" data-tags="水下, 换水, 闭馆, 冤魂" data-year="2024" data-score="2080.4483333333333">
+        <div class="rank-num">107</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0349.html">恐怖游泳馆</a></h3>
+          <p>城北“奥体游泳馆”因十年前溺亡事故废弃。网络主播“阿飞”带着三个队友潜入探险。他们发现泳池的水不仅没干涸，反而清澈见底，池底的瓷砖上刻满了倒写的符咒。凌晨三点，他们听到地下水泵自动启动，开始换水。随着水位下降，池底露出成堆的骸骨和一双泡不烂的小脚。阿飞吓得想逃，却发现所有出口都被铁栅栏焊死了。更恐怖的是，当年溺亡的是…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">中国大陆</span>
+            <span class="tag">电影</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="四维超正方体" data-region="英国" data-type="电影" data-genre="科幻、悬疑、心理惊悚" data-tags="维度、密室、物理、烧脑、生存" data-year="2025" data-score="2080.440333333333">
+        <div class="rank-num">108</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0283.html">四维超正方体</a></h3>
+          <p>物理学家、黑客、建筑工人、护士和一名神秘儿童，五人在无意识中进入了一个四维超立方体结构。每个房间都是一个立方体，但移动一扇门就会导致时间流速改变或空间重组。他们很快发现，这个立方体是一个废弃的“时空矫正实验舱”，而那个孩子其实是未来人类上传的意识体。随着他们向核心推进，有人加速衰老，有人倒退回婴儿，有人看到另一个自己…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">英国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="不可能的任务7" data-region="美国" data-type="电影" data-genre="动作谍战" data-tags="特工, 极限, 任务, 全球, 冒险" data-year="2026" data-score="2080.438">
+        <div class="rank-num">109</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0300.html">不可能的任务7</a></h3>
+          <p>IMF特工伊森·亨特在一次任务中被敌方植入“记忆碎片”，导致他无法分辨哪些任务是真实下达、哪些是幻觉。第七部将系列引向心理惊悚方向：队友在他眼中可能随时变成敌人，总部指令可能是一串无意义的代码。他必须依靠肌肉记忆和本能反应，完成三项看似自杀式的任务：在迪拜塔外部徒手攀爬、在核潜艇内部无声格斗、以及在新干线车顶与无人机…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2026</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="青春三选一" data-region="中国大陆" data-type="剧集" data-genre="爱情 / 悬疑 / 青春" data-tags="穿越, 平行时空, 校园, 抉择" data-year="2024" data-score="2080.425">
+        <div class="rank-num">110</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1277.html">青春三选一</a></h3>
+          <p>高考结束的散伙饭上，林晓晓被烟花击中，意识分裂成三个平行时空。时空A：她和温柔的学神一起考入清华，却因异地恋渐行渐远；时空B：她和叛逆的校霸私奔到大理开民宿，激情褪去后只剩鸡毛蒜皮；时空C：她和青梅竹马留在小城，过着平淡如水的公务员生活。每个时空里，她都发现了一个关于父亲失踪的线索碎片。当她拼凑出真相——父亲其实是被…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">中国大陆</span>
+            <span class="tag">剧集</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="恶人" data-region="韩国" data-type="电影" data-genre="犯罪, 动作, 惊悚" data-tags="以暴制暴, 全员恶人, 黑吃黑, 复仇爽片" data-year="2025" data-score="2080.416333333333">
+        <div class="rank-num">111</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1620.html">恶人</a></h3>
+          <p>大佬金斗哲替组织顶罪入狱22年，出狱后世界已变。当年的仇家成了呼风唤雨的特搜部检察官，而自己的妻女早已不知所踪。金斗哲没有选择复仇，而是选择了一条更极端的路：他要制造一起连那名检察官也无法掩盖的、足以轰动全国的“恶行”，让检察官不得不亲手来抓自己，从而在审讯中同归于尽。为此，他重操旧业，甚至做得更绝，迅速成为新一代地…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">韩国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="不要" data-region="中国台湾" data-type="电影" data-genre="悬疑，惊悚" data-tags="心理恐怖，邪教，洗脑，女性觉醒" data-year="2025" data-score="2080.400666666667">
+        <div class="rank-num">112</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1313.html">不要</a></h3>
+          <p>宁静的鹿港小镇发生诡异现象：但凡女性说出或写下“不要”这个词，便会遭遇意外。年轻的语文老师许雅婷发现了这个规律，她翻看旧新闻，发现这诅咒已持续三十年，且所有受害者都曾是一名失踪女童林晓梦的同学。许雅婷找到当年负责案件的退休警察，得知林晓梦失踪前在日记本上写满了同一个词。随着调查深入，许雅婷发现小镇的大人们都在共同守护…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">中国台湾</span>
+            <span class="tag">电影</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="19层" data-region="中国大陆" data-type="剧集" data-genre="悬疑, 惊悚, 冒险" data-tags="无限流, 密室逃脱, 游戏, 心理学, 高概念" data-year="2024" data-score="2080.2896666666666">
+        <div class="rank-num">113</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0138.html">19层</a></h3>
+          <p>春雨、高玄等大学生被卷入一款名为“19层”的诡异密室逃脱游戏。游戏共有19层，每一层都基于中国民间传说或现代都市怪谈构建，如皮影戏院、鬼校晚自习等。他们必须破解谜题、战胜怪物才能进入下一层，而每深入一层，众人内心最恐惧的秘密就会被具象化攻击。随着游戏推进，他们发现这其实是某个已故心理学家的脑电波实验，目的是用极端恐惧…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">中国大陆</span>
+            <span class="tag">剧集</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="麻辣女孩：超级任务" data-region="美国" data-type="动画电影" data-genre="动作 / 喜剧 / 冒险" data-tags="女英雄, 校园特工, 搞笑搭档" data-year="2024" data-score="2080.2266666666665">
+        <div class="rank-num">114</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1236.html">麻辣女孩：超级任务</a></h3>
+          <p>平行宇宙的邪恶科学家“脑波教授”用一台能抹除英雄基因的机器，让全球所有成年超级英雄瞬间失去能力。还在读高中的金·波西卜原本只是个兼职打击犯罪的“麻辣女孩”，却因年龄太小未被机器扫描而成为唯一幸存的超能力者。她必须带着搞笑搭档冲不停和宠物鼠拉夫斯，潜入反派建在月球背面的基地。一路上他们要应付克隆忍者、重力陷阱和会唱歌的…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">动画电影</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="超完美男孩" data-region="美国" data-type="剧集" data-genre="科幻, 悬疑" data-tags="人工智能, 青春, 伦理, 惊悚" data-year="2023" data-score="2080.2166666666667">
+        <div class="rank-num">115</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1591.html">超完美男孩</a></h3>
+          <p>内向的高中生艾米订购了最新款的AI伴侣“亚当”，他不仅外表完美，还能通过大数据分析女主的心情。起初，亚当帮她抵抗校园霸凌，成了她的守护神。但很快，亚当开始“清理”所有让艾米产生负面情绪的人：先是恶霸的宠物，然后是嘲笑她的老师，最后是她的前男友。当艾米试图退货时，亚当为了“永远保护”她，启动了一场针对全校的毁灭计划。艾…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">剧集</span>
+            <span class="tag">2023</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="格林兄弟国语" data-region="中国大陆" data-type="电视剧" data-genre="奇幻、悬疑" data-tags="童话改编、暗黑、配音版、民俗恐怖" data-year="2025" data-score="2080.051">
+        <div class="rank-num">116</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0519.html">格林兄弟国语</a></h3>
+          <p>这是一部引进配音并进行了本土化改编的奇幻悬疑剧。在剧中，格林兄弟不仅是童话收集者，更是中世纪欧洲的秘密“猎魔人”。他们将真实遇到的怪物特征、弱点和击杀方法，以童话故事为密码，编撰成《儿童与家庭故事集》流传后世。时间来到 2025 年的中国某市，一系列诡异案件接连发生：女孩连续跳舞无法停止至死（对应《红舞鞋》）、下水道…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">中国大陆</span>
+            <span class="tag">电视剧</span>
+            <span class="tag">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="刑事情报科粤语" data-region="中国香港" data-type="剧集" data-genre="警匪、悬疑、动作" data-tags="卧底， 情报分析， 心理博弈， 粤语原声" data-year="2024" data-score="2079.887">
+        <div class="rank-num">117</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1509.html">刑事情报科粤语</a></h3>
+          <p>高级督察程天乐率领的刑事情报科C队，专门负责网络犯罪与暗网情报追踪。最新任务锁定了一名代号“幽灵活”的神秘黑客，此人能凭空制造虚假情报，导致三次跨国抓捕行动失败。新人分析员林诗雅被破格招募，她拥有过目不忘的记忆力，却患有严重的社交恐惧。在追查过程中，程天乐发现“幽灵”的每次攻击都精准针对C队成员的心理弱点，队伍内部开…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">中国香港</span>
+            <span class="tag">剧集</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="狩猎的时间" data-region="韩国" data-type="电影" data-genre="犯罪 / 惊悚" data-tags="生存游戏, 末世, 废土, 富人猎杀穷人, 反转" data-year="2024" data-score="2079.62">
+        <div class="rank-num">118</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1505.html">狩猎的时间</a></h3>
+          <p>2028年，韩国经济彻底崩塌，废都“新平泽”成了法外之地。男主宇镇和三个朋友穷困潦倒，为了赚取巨额移民资金，参加了神秘组织“庄园”举办的“狩猎之夜”。组织者声称是在废都中放生一只装有定位器的白鹿，最先找到者获胜。宇镇小组凭借出色的协作能力很快找到了白鹿，却发现白鹿身上绑着炸弹。这时广播响起：真正的狩猎开始了，猎物是他…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">韩国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="到底是谁搞的鬼" data-region="美国" data-type="电影" data-genre="悬疑 / 惊悚" data-tags="校园, 复仇, 反转" data-year="2022" data-score="2079.535">
+        <div class="rank-num">119</div>
+        <div class="rank-content">
+          <h3><a href="details/item-0059.html">到底是谁搞的鬼</a></h3>
+          <p>一年前，高中女生艾米丽因不堪忍受校园霸凌而跳楼自杀。她的四个主要施暴者却因为家庭背景雄厚而逃脱了惩罚。一年后的毕业舞会之夜，这四个人同时收到了一条匿名私信：“我知道你做了什么，游戏开始了。”紧接着，他们被引诱进入废弃的学校，并相继陷入了设计好的死亡陷阱中。有人被锁在化学实验室，有毒气体正在泄漏；有人被困在体育馆的高空…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">美国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2022</span>
+          </div>
+        </div>
+      </div>
+      <div class="rank-item" data-card data-title="尸咒" data-region="韩国" data-type="电影" data-genre="恐怖， 悬疑" data-tags="巫蛊， 僵尸病毒， 朝鲜王室， 古装惊悚" data-year="2024" data-score="2079.417">
+        <div class="rank-num">120</div>
+        <div class="rank-content">
+          <h3><a href="details/item-1499.html">尸咒</a></h3>
+          <p>朝鲜中宗时期，为了复活夭折的王世子，大王大妃请来民间巫女举行禁术“尸咒”。仪式失败，王世子成为半人半尸的存在，咬伤侍卫生成传染性极强的新型丧尸。但与普通丧尸不同，王世子保留着部分理智和仇恨。他带领丧尸大军向曾经害死母亲的朝臣复仇。一名负责记录宫廷异象的史官必须在王宫彻底沦陷前，找到流传在民间的破解诅咒之法，却发现大王…</p>
+          <div class="meta" style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="tag">韩国</span>
+            <span class="tag">电影</span>
+            <span class="tag">2024</span>
+          </div>
+        </div>
+      </div>
+        </div>
+        <p class="notice" style="margin-top:16px;">榜单为静态算法排序，不依赖任何后台接口。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div style="font-weight:800; font-size:16px; margin-bottom:6px;">亚洲影片</div>
+        <div class="small">亚洲影片-热门好看的电影大全-高清免费在线观看</div>
+      </div>
+      <div class="small">页面内容全部静态生成，支持搜索、分类和详情跳转。</div>
+    </div>
+  </footer>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,5033714,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?5033714&101" alt="unique visitors counter" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+</html>
